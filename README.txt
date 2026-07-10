@@ -17,3 +17,9 @@
 - فایل data/latest.json عمداً داخل این ZIP قرار داده نشده تا فایل نمونه خالی، اطلاعات واقعی کاربران را پاک نکند.
 - فایل نمونه برای الگو اینجاست: data/latest.example.json
 - فایل service-worker طوری تغییر کرده که latest.json کش نشود و همیشه نسخه تازه خوانده شود.
+
+
+نسخه manifest اصلاح‌شده برای PWA Builder:
+- حذف favicon.ico از manifest
+- اضافه شدن description، screenshots، orientation و id
+- فایل روزانه همچنان data/latest.json است.

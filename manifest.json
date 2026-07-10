@@ -1,12 +1,20 @@
 {
-  "name": "موجودی و قیمت عرشه‌کاران",
+  "id": ".",
+  "name": "موجودی کالا",
   "short_name": "موجودی کالا",
+  "description": "برنامه نمایش، جستجو و اشتراک‌گذاری موجودی و قیمت کالا با بروزرسانی روزانه از فایل JSON روی سرور.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "orientation": "portrait",
   "dir": "rtl",
   "lang": "fa",
   "theme_color": "#3a2117",
   "background_color": "#1a120f",
+  "categories": [
+    "business",
+    "productivity"
+  ],
   "icons": [
     {
       "src": "assets/app-icon-192.png",
@@ -19,16 +27,22 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/screenshot-mobile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "نمای موبایل برنامه موجودی کالا"
     },
     {
-      "src": "assets/favicon.ico",
-      "sizes": "16x16 32x32 48x48",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "assets/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml"
+      "src": "assets/screenshot-wide.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "نمای گسترده برنامه موجودی کالا"
     }
   ]
 }
