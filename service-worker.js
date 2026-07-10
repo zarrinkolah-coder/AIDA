@@ -1,4 +1,4 @@
-const CACHE = 'ork-inventory-mobile-v8';
+const CACHE = 'ork-inventory-mobile-v9';
 const ASSETS = ['./', './index.html', './manifest.json', './assets/styles.css', './assets/app.js', './assets/icon.svg', './assets/favicon.ico', './assets/app-icon-192.png', './assets/app-icon-512.png', './assets/screenshot-mobile.png', './assets/screenshot-wide.png'];
 
 self.addEventListener('install', e => {

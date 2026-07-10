@@ -50,6 +50,30 @@ function toJalaliDate(value){
     return raw.slice(0, 10);
   }
 }
+function toJalaliDateTime(value){
+  if (!value) return '';
+  const raw = String(value).trim();
+  if (!raw) return '';
+  const hasGregorianDate = /\d{4}[-/]\d{1,2}[-/]\d{1,2}/.test(raw);
+  if (!hasGregorianDate && /[۰-۹٠-٩]/.test(raw)) return raw;
+  const normalized = raw.includes('T') ? raw : raw.replace(/\//g, '-') + 'T00:00:00';
+  const date = new Date(normalized);
+  if (Number.isNaN(date.getTime())) return raw;
+  try {
+    return new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit'
+    }).format(date);
+  } catch(e) {
+    return raw;
+  }
+}
+function updateHeaderTimestamp(){
+  const el = $('#updateInfo');
+  if (!el) return;
+  const stamp = toJalaliDateTime(lastMeta?.updated_at || lastMeta?.created_at || lastMeta?.date);
+  el.textContent = stamp ? ('تاریخ و ساعت بروزرسانی: ' + stamp) : 'تاریخ و ساعت بروزرسانی: هنوز بروزرسانی انجام نشده است';
+}
 function buildShareText(){
   const rows = selectedProducts();
   const stamp = toJalaliDate(lastMeta?.created_at || lastMeta?.date);
@@ -444,6 +468,7 @@ async function handleFile(file){
     lastMeta = {
       fileName: file.name,
       source: 'manual',
+      updated_at: new Date().toISOString(),
       previousFileName: previousMeta?.fileName || '',
       created_at: meta.created_at || meta.date || data?.meta?.date || new Date().toISOString(),
       reason: meta.reason || '',
@@ -476,6 +501,7 @@ async function loadServerJson(showToast = false){
     lastMeta = {
       fileName: 'سرور: ' + serverName,
       source: 'server',
+      updated_at: new Date().toISOString(),
       previousFileName: previousMeta?.fileName || '',
       created_at: meta.created_at || meta.date || data?.meta?.date || new Date().toISOString(),
       reason: meta.reason || '',
@@ -566,15 +592,17 @@ function updateSummary(){
 function updateMeta(){
   const badge = $('#loadedBadge');
   const hint = $('#fileHint');
+  updateHeaderTimestamp();
   if (!lastMeta) {
     badge.textContent = 'در انتظار اطلاعات';
-    hint.textContent = 'برنامه هنگام باز شدن فایل data/latest.json را از سرور می‌خواند؛ بارگذاری دستی فقط برای مواقع اضطراری است';
+    hint.textContent = 'فایل روزانه باید در مسیر data/latest.json باشد';
     return;
   }
   badge.textContent = lastMeta.source === 'server' ? 'بروزرسانی از سرور' : 'بارگذاری دستی';
   const changeText = num(lastMeta.changedCount) ? ` · تغییر قیمت: ${fa(lastMeta.changedCount)}` : '';
   const previousText = lastMeta.previousFileName ? ` · مقایسه با: ${lastMeta.previousFileName}` : '';
-  hint.textContent = `${lastMeta.fileName || 'فایل پشتیبان'} · ${String(lastMeta.created_at || '').slice(0,19).replace('T',' ')}${changeText}${previousText}`;
+  const metaDate = toJalaliDateTime(lastMeta.created_at || lastMeta.date);
+  hint.textContent = `${lastMeta.fileName || 'فایل پشتیبان'}${metaDate ? ' · تاریخ فایل: ' + metaDate : ''}${changeText}${previousText}`;
 }
 function updateUi(){ fillCategories(); updateSummary(); updateMeta(); renderList(); updateSharePanel(); }
 function openDetail(index){
