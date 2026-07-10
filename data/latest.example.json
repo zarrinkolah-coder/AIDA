@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "created_at": "2026-07-10T08:00:00+04:00",
+    "reason": "نمونه"
+  },
+  "data": {
+    "products": [],
+    "inventory": [],
+    "prices": [],
+    "transactions": []
+  }
+}
