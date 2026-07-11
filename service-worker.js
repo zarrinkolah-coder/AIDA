@@ -2,8 +2,11 @@ const CACHE = 'ork-inventory-mobile-v9';
 const ASSETS = ['./', './index.html', './manifest.json', './assets/styles.css', './assets/app.js', './assets/icon.svg', './assets/favicon.ico', './assets/app-icon-192.png', './assets/app-icon-512.png', './assets/screenshot-mobile.png', './assets/screenshot-wide.png'];
 
 self.addEventListener('install', e => {
-  self.skipWaiting();
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
+});
+
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SKIP_WAITING') self.skipWaiting();
 });
 
 self.addEventListener('activate', e => {
