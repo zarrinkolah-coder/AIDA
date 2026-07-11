@@ -46,20 +46,70 @@ function parsePriceIncreasePercent(raw){
   return Number.isFinite(value) ? value : NaN;
 }
 function askPriceIncreasePercent(){
-  const raw = window.prompt('درصد افزایش قیمت را در باکس زیر مشخص نمایید', '0');
-  if (raw === null) return null;
-  const percent = parsePriceIncreasePercent(raw);
-  if (!Number.isFinite(percent) || percent < 0) {
-    toast('درصد افزایش قیمت معتبر نیست');
-    return null;
-  }
-  return percent;
+  return new Promise(resolve => {
+    const dialog = $('#priceIncreaseDialog');
+    const input = $('#priceIncreaseInput');
+    const confirmBtn = $('#priceIncreaseConfirmBtn');
+    const cancelBtn = $('#priceIncreaseCancelBtn');
+
+    if (!dialog || !input || !confirmBtn || !cancelBtn) {
+      const raw = window.prompt('درصد افزایش قیمت را در باکس زیر مشخص نمایید', '0');
+      if (raw === null) { resolve(null); return; }
+      const percent = parsePriceIncreasePercent(raw);
+      if (!Number.isFinite(percent) || percent < 0) {
+        toast('درصد افزایش قیمت معتبر نیست');
+        resolve(null);
+        return;
+      }
+      resolve(percent);
+      return;
+    }
+
+    let settled = false;
+    const finish = value => {
+      if (settled) return;
+      settled = true;
+      confirmBtn.onclick = null;
+      cancelBtn.onclick = null;
+      dialog.oncancel = null;
+      dialog.onclose = null;
+      if (dialog.open) dialog.close();
+      resolve(value);
+    };
+
+    input.value = '0';
+    input.select();
+
+    confirmBtn.onclick = () => {
+      const percent = parsePriceIncreasePercent(input.value);
+      if (!Number.isFinite(percent) || percent < 0) {
+        toast('درصد افزایش قیمت معتبر نیست');
+        input.focus();
+        input.select();
+        return;
+      }
+      finish(percent);
+    };
+    cancelBtn.onclick = () => finish(null);
+    dialog.oncancel = e => { e.preventDefault(); finish(null); };
+    dialog.onclose = () => { if (!settled) finish(null); };
+
+    if (typeof dialog.showModal === 'function') dialog.showModal();
+    else dialog.setAttribute('open', '');
+    setTimeout(() => { input.focus(); input.select(); }, 80);
+  });
+}
+function roundToThousand(value){
+  const n = Number(value || 0);
+  if (!Number.isFinite(n) || !n) return 0;
+  return Math.round(n / 1000) * 1000;
 }
 function adjustedSellPrice(product, priceIncreasePercent = 0){
   const base = num(product?.sellPrice);
   const percent = Number(priceIncreasePercent || 0);
-  if (!base || !Number.isFinite(percent) || percent === 0) return base;
-  return Math.round(base * (1 + percent / 100));
+  if (!base || !Number.isFinite(percent)) return base;
+  const finalPrice = base * (1 + percent / 100);
+  return roundToThousand(finalPrice);
 }
 function formatPercent(percent){
   const n = Number(percent || 0);
@@ -87,7 +137,6 @@ function buildShareText(priceIncreasePercent = 0){
   const stamp = toJalaliDate(lastMeta?.created_at || lastMeta?.date);
   const lines = ['لیست قیمت فروش کالاها'];
   if (stamp) lines.push('تاریخ: ' + stamp);
-  if (Number(priceIncreasePercent || 0) > 0) lines.push('درصد افزایش قیمت: ' + formatPercent(priceIncreasePercent) + '٪');
   lines.push('');
   rows.forEach((p, i) => {
     lines.push(`${i + 1}. ${p.name}: ${money(adjustedSellPrice(p, priceIncreasePercent))}`);
@@ -165,7 +214,7 @@ async function createShareJpegBlob(priceIncreasePercent = 0){
     price: money(adjustedSellPrice(p, priceIncreasePercent))
   }));
 
-  const headerHeight = (stamp ? 176 : 142) + (Number(priceIncreasePercent || 0) > 0 ? 38 : 0);
+  const headerHeight = (stamp ? 176 : 142);
   const footerHeight = 70;
   const rowHeights = prepared.map(item => Math.max(96, item.nameLines.length * lineHeight + rowBottomPad));
   const totalRowsHeight = rowHeights.reduce((a, b) => a + b, 0) + gap * (prepared.length - 1);
@@ -204,12 +253,6 @@ async function createShareJpegBlob(priceIncreasePercent = 0){
     ctx.fillStyle = '#e4cbb8';
     ctx.font = '700 28px Tahoma, Arial, sans-serif';
     ctx.fillText('تاریخ: ' + stamp, padding, 104);
-  }
-  if (Number(priceIncreasePercent || 0) > 0) {
-    ctx.textAlign = 'right';
-    ctx.fillStyle = '#e4cbb8';
-    ctx.font = '700 26px Tahoma, Arial, sans-serif';
-    ctx.fillText('درصد افزایش قیمت: ' + formatPercent(priceIncreasePercent) + '٪', width - padding, 142);
   }
 
   let y = headerHeight;
@@ -330,7 +373,7 @@ function updateSharePanel(){
 }
 async function copySelected(){
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
-  const priceIncreasePercent = askPriceIncreasePercent();
+  const priceIncreasePercent = await askPriceIncreasePercent();
   if (priceIncreasePercent === null) return;
   const text = buildShareText(priceIncreasePercent);
   const ok = await copyText(text);
@@ -338,7 +381,7 @@ async function copySelected(){
 }
 async function shareSelected(){
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
-  const priceIncreasePercent = askPriceIncreasePercent();
+  const priceIncreasePercent = await askPriceIncreasePercent();
   if (priceIncreasePercent === null) return;
   const text = buildShareText(priceIncreasePercent);
   await copyText(text);
@@ -358,7 +401,7 @@ async function shareSelected(){
 
 async function shareSelectedJpeg(){
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
-  const priceIncreasePercent = askPriceIncreasePercent();
+  const priceIncreasePercent = await askPriceIncreasePercent();
   if (priceIncreasePercent === null) return;
   try {
     toast('در حال آماده‌سازی تصویر JPEG...');
