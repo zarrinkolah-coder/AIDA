@@ -33,6 +33,38 @@ function productKey(p){ return norm(p?.name || p?.product || ''); }
 function selectedProducts(){
   return allProducts.filter(p => selectedProductKeys.has(productKey(p)));
 }
+function parsePriceIncreasePercent(raw){
+  if (raw === null) return null;
+  const cleaned = String(raw ?? '')
+    .replace(/[٪%]/g, '')
+    .replace(/[٫]/g, '.')
+    .replace(/[٬,\s]/g, '')
+    .replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d))
+    .replace(/[٠-٩]/g, d => '٠١٢٣٤٥٦٧٨٩'.indexOf(d));
+  if (!cleaned) return 0;
+  const value = Number(cleaned);
+  return Number.isFinite(value) ? value : NaN;
+}
+function askPriceIncreasePercent(){
+  const raw = window.prompt('درصد افزایش قیمت را در باکس زیر مشخص نمایید', '0');
+  if (raw === null) return null;
+  const percent = parsePriceIncreasePercent(raw);
+  if (!Number.isFinite(percent) || percent < 0) {
+    toast('درصد افزایش قیمت معتبر نیست');
+    return null;
+  }
+  return percent;
+}
+function adjustedSellPrice(product, priceIncreasePercent = 0){
+  const base = num(product?.sellPrice);
+  const percent = Number(priceIncreasePercent || 0);
+  if (!base || !Number.isFinite(percent) || percent === 0) return base;
+  return Math.round(base * (1 + percent / 100));
+}
+function formatPercent(percent){
+  const n = Number(percent || 0);
+  return Number.isInteger(n) ? fa(n) : nf.format(n);
+}
 function toJalaliDate(value){
   if (!value) return '';
   const raw = String(value).trim();
@@ -50,38 +82,15 @@ function toJalaliDate(value){
     return raw.slice(0, 10);
   }
 }
-function toJalaliDateTime(value){
-  if (!value) return '';
-  const raw = String(value).trim();
-  if (!raw) return '';
-  const hasGregorianDate = /\d{4}[-/]\d{1,2}[-/]\d{1,2}/.test(raw);
-  if (!hasGregorianDate && /[۰-۹٠-٩]/.test(raw)) return raw;
-  const normalized = raw.includes('T') ? raw : raw.replace(/\//g, '-') + 'T00:00:00';
-  const date = new Date(normalized);
-  if (Number.isNaN(date.getTime())) return raw;
-  try {
-    return new Intl.DateTimeFormat('fa-IR-u-ca-persian', {
-      year: 'numeric', month: '2-digit', day: '2-digit',
-      hour: '2-digit', minute: '2-digit'
-    }).format(date);
-  } catch(e) {
-    return raw;
-  }
-}
-function updateHeaderTimestamp(){
-  const el = $('#updateInfo');
-  if (!el) return;
-  const stamp = toJalaliDateTime(lastMeta?.updated_at || lastMeta?.created_at || lastMeta?.date);
-  el.textContent = stamp ? ('تاریخ و ساعت بروزرسانی: ' + stamp) : 'تاریخ و ساعت بروزرسانی: هنوز بروزرسانی انجام نشده است';
-}
-function buildShareText(){
+function buildShareText(priceIncreasePercent = 0){
   const rows = selectedProducts();
   const stamp = toJalaliDate(lastMeta?.created_at || lastMeta?.date);
   const lines = ['لیست قیمت فروش کالاها'];
   if (stamp) lines.push('تاریخ: ' + stamp);
+  if (Number(priceIncreasePercent || 0) > 0) lines.push('درصد افزایش قیمت: ' + formatPercent(priceIncreasePercent) + '٪');
   lines.push('');
   rows.forEach((p, i) => {
-    lines.push(`${i + 1}. ${p.name}: ${money(p.sellPrice)}`);
+    lines.push(`${i + 1}. ${p.name}: ${money(adjustedSellPrice(p, priceIncreasePercent))}`);
   });
   return lines.join('\n').trim();
 }
@@ -130,7 +139,7 @@ function blobFromCanvas(canvas, type='image/jpeg', quality=0.92){
     resolve(new Blob([arr], { type }));
   });
 }
-async function createShareJpegBlob(){
+async function createShareJpegBlob(priceIncreasePercent = 0){
   const rows = selectedProducts();
   if (!rows.length) throw new Error('ابتدا حداقل یک کالا را انتخاب کنید');
   const title = 'لیست قیمت فروش کالاها';
@@ -153,10 +162,10 @@ async function createShareJpegBlob(){
   const prepared = rows.map((p, i) => ({
     index: i + 1,
     nameLines: wrapTextByWords(ctx, p.name || '', nameAreaWidth),
-    price: money(p.sellPrice)
+    price: money(adjustedSellPrice(p, priceIncreasePercent))
   }));
 
-  const headerHeight = stamp ? 176 : 142;
+  const headerHeight = (stamp ? 176 : 142) + (Number(priceIncreasePercent || 0) > 0 ? 38 : 0);
   const footerHeight = 70;
   const rowHeights = prepared.map(item => Math.max(96, item.nameLines.length * lineHeight + rowBottomPad));
   const totalRowsHeight = rowHeights.reduce((a, b) => a + b, 0) + gap * (prepared.length - 1);
@@ -195,6 +204,12 @@ async function createShareJpegBlob(){
     ctx.fillStyle = '#e4cbb8';
     ctx.font = '700 28px Tahoma, Arial, sans-serif';
     ctx.fillText('تاریخ: ' + stamp, padding, 104);
+  }
+  if (Number(priceIncreasePercent || 0) > 0) {
+    ctx.textAlign = 'right';
+    ctx.fillStyle = '#e4cbb8';
+    ctx.font = '700 26px Tahoma, Arial, sans-serif';
+    ctx.fillText('درصد افزایش قیمت: ' + formatPercent(priceIncreasePercent) + '٪', width - padding, 142);
   }
 
   let y = headerHeight;
@@ -314,14 +329,18 @@ function updateSharePanel(){
   }
 }
 async function copySelected(){
-  const text = buildShareText();
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
+  const priceIncreasePercent = askPriceIncreasePercent();
+  if (priceIncreasePercent === null) return;
+  const text = buildShareText(priceIncreasePercent);
   const ok = await copyText(text);
   toast(ok ? 'لیست قیمت در کلیپ‌بورد ذخیره شد' : 'کپی خودکار انجام نشد؛ متن را دستی انتخاب کنید');
 }
 async function shareSelected(){
-  const text = buildShareText();
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
+  const priceIncreasePercent = askPriceIncreasePercent();
+  if (priceIncreasePercent === null) return;
+  const text = buildShareText(priceIncreasePercent);
   await copyText(text);
   if (navigator.share) {
     try {
@@ -339,9 +358,11 @@ async function shareSelected(){
 
 async function shareSelectedJpeg(){
   if (!selectedProductKeys.size) { toast('ابتدا حداقل یک کالا را انتخاب کنید'); return; }
+  const priceIncreasePercent = askPriceIncreasePercent();
+  if (priceIncreasePercent === null) return;
   try {
     toast('در حال آماده‌سازی تصویر JPEG...');
-    const blob = await createShareJpegBlob();
+    const blob = await createShareJpegBlob(priceIncreasePercent);
     const stamp = toJalaliDate(lastMeta?.created_at || lastMeta?.date).replace(/[\/]/g, '-');
     const fileName = `price-list-${stamp || 'products'}.jpg`;
     const file = new File([blob], fileName, { type: 'image/jpeg' });
@@ -468,7 +489,6 @@ async function handleFile(file){
     lastMeta = {
       fileName: file.name,
       source: 'manual',
-      updated_at: new Date().toISOString(),
       previousFileName: previousMeta?.fileName || '',
       created_at: meta.created_at || meta.date || data?.meta?.date || new Date().toISOString(),
       reason: meta.reason || '',
@@ -501,7 +521,6 @@ async function loadServerJson(showToast = false){
     lastMeta = {
       fileName: 'سرور: ' + serverName,
       source: 'server',
-      updated_at: new Date().toISOString(),
       previousFileName: previousMeta?.fileName || '',
       created_at: meta.created_at || meta.date || data?.meta?.date || new Date().toISOString(),
       reason: meta.reason || '',
@@ -592,17 +611,15 @@ function updateSummary(){
 function updateMeta(){
   const badge = $('#loadedBadge');
   const hint = $('#fileHint');
-  updateHeaderTimestamp();
   if (!lastMeta) {
     badge.textContent = 'در انتظار اطلاعات';
-    hint.textContent = 'فایل روزانه باید در مسیر data/latest.json باشد';
+    hint.textContent = 'برنامه هنگام باز شدن فایل data/latest.json را از سرور می‌خواند؛ بارگذاری دستی فقط برای مواقع اضطراری است';
     return;
   }
   badge.textContent = lastMeta.source === 'server' ? 'بروزرسانی از سرور' : 'بارگذاری دستی';
   const changeText = num(lastMeta.changedCount) ? ` · تغییر قیمت: ${fa(lastMeta.changedCount)}` : '';
   const previousText = lastMeta.previousFileName ? ` · مقایسه با: ${lastMeta.previousFileName}` : '';
-  const metaDate = toJalaliDateTime(lastMeta.created_at || lastMeta.date);
-  hint.textContent = `${lastMeta.fileName || 'فایل پشتیبان'}${metaDate ? ' · تاریخ فایل: ' + metaDate : ''}${changeText}${previousText}`;
+  hint.textContent = `${lastMeta.fileName || 'فایل پشتیبان'} · ${String(lastMeta.created_at || '').slice(0,19).replace('T',' ')}${changeText}${previousText}`;
 }
 function updateUi(){ fillCategories(); updateSummary(); updateMeta(); renderList(); updateSharePanel(); }
 function openDetail(index){
@@ -648,6 +665,44 @@ $('#copySelectedBtn').addEventListener('click', copySelected);
 $('#shareSelectedBtn').addEventListener('click', shareSelected);
 if ($('#shareSelectedJpegBtn')) $('#shareSelectedJpegBtn').addEventListener('click', shareSelectedJpeg);
 $('#clearDataBtn').addEventListener('click', () => { localStorage.removeItem(STORAGE_KEY); allProducts=[]; lastMeta=null; selectedProductKeys.clear(); updateUi(); toast('داده موبایل پاک شد'); });
+function showAppUpdateBanner(registration){
+  const banner = $('#appUpdateBanner');
+  if (!banner) return;
+  banner.hidden = false;
+  const applyBtn = $('#applyUpdateBtn');
+  const laterBtn = $('#dismissUpdateBtn');
+  if (laterBtn) laterBtn.onclick = () => { banner.hidden = true; };
+  if (applyBtn) applyBtn.onclick = () => {
+    banner.hidden = true;
+    if (registration && registration.waiting) {
+      registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+    } else {
+      location.reload();
+    }
+  };
+}
+function setupServiceWorkerUpdates(){
+  if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (reloading) return;
+    reloading = true;
+    location.reload();
+  });
+  navigator.serviceWorker.register('service-worker.js').then(reg => {
+    if (reg.waiting && navigator.serviceWorker.controller) showAppUpdateBanner(reg);
+    reg.addEventListener('updatefound', () => {
+      const worker = reg.installing;
+      if (!worker) return;
+      worker.addEventListener('statechange', () => {
+        if (worker.state === 'installed' && navigator.serviceWorker.controller) {
+          showAppUpdateBanner(reg);
+        }
+      });
+    });
+    setTimeout(() => reg.update().catch(()=>{}), 1200);
+  }).catch(()=>{});
+}
 if (!loadPersisted()) updateUi();
 loadServerJson(false);
-if ('serviceWorker' in navigator && location.protocol !== 'file:') navigator.serviceWorker.register('service-worker.js').catch(()=>{});
+setupServiceWorkerUpdates();

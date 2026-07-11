@@ -84,6 +84,11 @@ select option { background:#2e1f1b; color:#fff4ea; }
 .share-info small { display:block; color:var(--muted); overflow:hidden; white-space:nowrap; text-overflow:ellipsis; max-width:42vw; }
 .share-actions { display:flex; gap:7px; flex:0 0 auto; flex-wrap:wrap; justify-content:flex-end; }
 .share-btn { padding:9px 10px; border-radius:14px; white-space:nowrap; }
+.update-banner { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:0 0 14px; padding:12px 14px; border:1px solid rgba(247,200,115,.42); border-radius:18px; background:linear-gradient(135deg, rgba(247,200,115,.17), rgba(245,158,106,.10)); box-shadow:0 12px 28px rgba(0,0,0,.22); }
+.update-banner[hidden] { display:none; }
+.update-banner b { display:block; color:var(--accent); font-weight:900; }
+.update-banner small { display:block; color:var(--muted); font-size:13px; }
+.update-actions { display:flex; gap:8px; flex:0 0 auto; }
 .share-btn.secondary { background:rgba(255,255,255,.05); }
 .list { display:grid; gap:8px; }
 .product-card { border:1px solid var(--border); background:linear-gradient(180deg, rgba(58,36,30,.92), rgba(41,25,21,.90)); border-radius:16px; padding:8px 10px; box-shadow: 0 8px 20px rgba(0,0,0,.14); }
