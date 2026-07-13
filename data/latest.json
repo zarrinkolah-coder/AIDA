@@ -1,6 +1,6 @@
 {
   "version": "3.1",
-  "date": "2026-07-13T09:23:50.197Z",
+  "date": "2026-07-13T10:25:06.167Z",
   "shamsi_date": "۱۴۰۵/۰۴/۲۲",
   "data": {
     "meta": {
@@ -1560,7 +1560,7 @@
         "product": "آچار بوکس",
         "stock": 43,
         "buy_price": 0,
-        "price": 89000
+        "price": 85000
       },
       {
         "product": "آچار ستاره ای",
@@ -3989,6 +3989,18 @@
     "production": [],
     "returns": [],
     "price_log": [
+      {
+        "timestamp": "2026-07-13T10:24:59.983Z",
+        "date": "1405/04/22",
+        "product": "آچار بوکس",
+        "kind": "فروش",
+        "old": 89000,
+        "new": 85000,
+        "change_type": "کاهش",
+        "value": 4000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
       {
         "timestamp": "2026-07-11T18:25:15.305Z",
         "date": "1405/04/20",
@@ -56010,6 +56022,34 @@
     ],
     "audit_log": [
       {
+        "id": "AUD-1783938299984-wci0e",
+        "timestamp": "2026-07-13T10:24:59.984Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/22",
+        "time": "13:54:59",
+        "jalali_timestamp": "1405/04/22 - ساعت 13:54:59 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "آچار بوکس: 89000 → 85000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1783934630622-pomjm",
+        "timestamp": "2026-07-13T09:23:50.622Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/22",
+        "time": "12:53:50",
+        "jalali_timestamp": "1405/04/22 - ساعت 12:53:50 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ذخیره فایل پشتیبان",
+        "detail": "نوار ابزار",
+        "level": "info"
+      },
+      {
         "id": "AUD-1783932521553-a9g2q",
         "timestamp": "2026-07-13T08:48:41.553Z",
         "timezone": "Asia/Tehran",
@@ -56399,34 +56439,6 @@
         "role": "مدیر",
         "action": "ذخیره فایل پشتیبان",
         "detail": "نوار ابزار",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1783789760883-5j5fx",
-        "timestamp": "2026-07-11T17:09:20.883Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/20",
-        "time": "20:39:20",
-        "jalali_timestamp": "1405/04/20 - ساعت 20:39:20 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ویرایش فاکتور",
-        "detail": "فاکتور #6760 · مشتری سعیدی هشتگرد · سطر 4",
-        "level": "warning"
-      },
-      {
-        "id": "AUD-1783789159847-130x1",
-        "timestamp": "2026-07-11T16:59:19.847Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/20",
-        "time": "20:29:19",
-        "jalali_timestamp": "1405/04/20 - ساعت 20:29:19 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6760 · مشتری سعیدی هشتگرد · سطر 4",
         "level": "info"
       }
     ],
