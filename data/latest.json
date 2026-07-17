@@ -1,6 +1,6 @@
 {
   "version": "3.1",
-  "date": "2026-07-17T18:17:43.199Z",
+  "date": "2026-07-17T18:26:18.919Z",
   "shamsi_date": "۱۴۰۵/۰۴/۲۶",
   "data": {
     "meta": {
@@ -2336,13 +2336,13 @@
         "product": "وادار U-10 دو میل",
         "stock": 3,
         "buy_price": 0,
-        "price": 1709000
+        "price": 1400000
       },
       {
         "product": "وادار U-10 یک و نیم میل",
         "stock": 30,
         "buy_price": 0,
-        "price": 1566000
+        "price": 1400000
       },
       {
         "product": "وادار U-14 دو میل",
@@ -2354,19 +2354,19 @@
         "product": "وادار U-14 یک و نیم میل",
         "stock": 21,
         "buy_price": 0,
-        "price": 1707000
+        "price": 1350000
       },
       {
         "product": "وادار U-15 یک و نیم میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 1708000
+        "price": 1400000
       },
       {
         "product": "وادار U-20 دو میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 1860000
+        "price": 1600000
       },
       {
         "product": "وادار U-20 یک و نیم میل",
@@ -2389,7 +2389,7 @@
       {
         "product": "وادار U-15 دو میل",
         "stock": 62,
-        "price": 1600000,
+        "price": 1480000,
         "buy_price": 1320000
       },
       {
@@ -3997,6 +3997,78 @@
     "production": [],
     "returns": [],
     "price_log": [
+      {
+        "timestamp": "2026-07-17T18:25:55.799Z",
+        "date": "1405/04/26",
+        "product": "وادار U-20 دو میل",
+        "kind": "فروش",
+        "old": 1860000,
+        "new": 1600000,
+        "change_type": "کاهش",
+        "value": 260000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
+      {
+        "timestamp": "2026-07-17T18:25:47.635Z",
+        "date": "1405/04/26",
+        "product": "وادار U-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1708000,
+        "new": 1400000,
+        "change_type": "کاهش",
+        "value": 308000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
+      {
+        "timestamp": "2026-07-17T18:25:33.963Z",
+        "date": "1405/04/26",
+        "product": "وادار U-10 دو میل",
+        "kind": "فروش",
+        "old": 1709000,
+        "new": 1400000,
+        "change_type": "کاهش",
+        "value": 309000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
+      {
+        "timestamp": "2026-07-17T18:25:14.359Z",
+        "date": "1405/04/26",
+        "product": "وادار U-14 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1707000,
+        "new": 1350000,
+        "change_type": "کاهش",
+        "value": 357000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
+      {
+        "timestamp": "2026-07-17T18:25:05.295Z",
+        "date": "1405/04/26",
+        "product": "وادار U-10 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1566000,
+        "new": 1400000,
+        "change_type": "کاهش",
+        "value": 166000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
+      {
+        "timestamp": "2026-07-17T18:24:55.319Z",
+        "date": "1405/04/26",
+        "product": "وادار U-15 دو میل",
+        "kind": "فروش",
+        "old": 1600000,
+        "new": 1480000,
+        "change_type": "کاهش",
+        "value": 120000,
+        "user": "مدیر",
+        "source": "ویرایش دستی لیست قیمت"
+      },
       {
         "timestamp": "2026-07-17T10:39:16.567Z",
         "date": "1405/04/26",
@@ -58039,6 +58111,104 @@
     ],
     "audit_log": [
       {
+        "id": "AUD-1784312755799-l0hca",
+        "timestamp": "2026-07-17T18:25:55.799Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:55:55",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:55:55 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-20 دو میل: 1860000 → 1600000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312747635-8v03w",
+        "timestamp": "2026-07-17T18:25:47.635Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:55:47",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:55:47 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-15 یک و نیم میل: 1708000 → 1400000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312733963-sx4rq",
+        "timestamp": "2026-07-17T18:25:33.963Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:55:33",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:55:33 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-10 دو میل: 1709000 → 1400000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312714359-ism6b",
+        "timestamp": "2026-07-17T18:25:14.359Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:55:14",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:55:14 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-14 یک و نیم میل: 1707000 → 1350000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312705295-v7lec",
+        "timestamp": "2026-07-17T18:25:05.295Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:55:05",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:55:05 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-10 یک و نیم میل: 1566000 → 1400000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312695319-jlluv",
+        "timestamp": "2026-07-17T18:24:55.319Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:54:55",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:54:55 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر قیمت",
+        "detail": "وادار U-15 دو میل: 1600000 → 1480000",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784312263273-1p5st",
+        "timestamp": "2026-07-17T18:17:43.273Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:47:43",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:47:43 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ذخیره فایل پشتیبان",
+        "detail": "نوار ابزار",
+        "level": "info"
+      },
+      {
         "id": "AUD-1784284790643-1s39g",
         "timestamp": "2026-07-17T10:39:50.643Z",
         "timezone": "Asia/Tehran",
@@ -58359,104 +58529,6 @@
         "action": "ذخیره فایل پشتیبان",
         "detail": "نوار ابزار",
         "level": "info"
-      },
-      {
-        "id": "AUD-1784054634539-47ipg",
-        "timestamp": "2026-07-14T18:43:54.539Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "22:13:54",
-        "jalali_timestamp": "1405/04/23 - ساعت 22:13:54 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "خروجی فاکتورهای بازاریابان",
-        "detail": "1405/04/09 تا 1405/04/23 · 53 فاکتور",
-        "level": "success"
-      },
-      {
-        "id": "AUD-1784053582981-774by",
-        "timestamp": "2026-07-14T18:26:22.981Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:56:22",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:56:22 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت ورود کالا",
-        "detail": "قلاب گالوانیزه · تعداد 1200 · مبلغ 7080000 · مصرف مواد اولیه 60.000 کیلوگرم",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784053468258-h9ssb",
-        "timestamp": "2026-07-14T18:24:28.258Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:54:28",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:54:28 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت مرجوعی",
-        "detail": "قلاب گالوانیزه · فاکتور 6336 · تعداد 500",
-        "level": "warning"
-      },
-      {
-        "id": "AUD-1784053468189-i4qra",
-        "timestamp": "2026-07-14T18:24:28.189Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:54:28",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:54:28 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "بکاپ",
-        "detail": "قبل از ثبت مرجوعی",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784053460387-9n8qd",
-        "timestamp": "2026-07-14T18:24:20.387Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:54:20",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:54:20 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت مرجوعی",
-        "detail": "گیره گالوانیزه · فاکتور 6336 · تعداد 500",
-        "level": "warning"
-      },
-      {
-        "id": "AUD-1784053460302-8ysff",
-        "timestamp": "2026-07-14T18:24:20.302Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:54:20",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:54:20 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "بکاپ",
-        "detail": "قبل از ثبت مرجوعی",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784053422383-t5arz",
-        "timestamp": "2026-07-14T18:23:42.383Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "21:53:42",
-        "jalali_timestamp": "1405/04/23 - ساعت 21:53:42 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت مرجوعی",
-        "detail": "وادار H-10  یک و نیم میل · فاکتور 6629 · تعداد 5",
-        "level": "warning"
       }
     ],
     "min_stock": [
