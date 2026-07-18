@@ -1,0 +1,51 @@
+{
+  "name": "aida-inventory-desktop",
+  "version": "1.0.0",
+  "description": "Windows 64-bit desktop installer for موجودی کالا / AIDA",
+  "main": "main.js",
+  "author": "Zarrin",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist:win64": "electron-builder --win nsis --x64",
+    "pack:win64": "electron-builder --win dir --x64"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.zarrin.aida.inventory",
+    "productName": "AIDA Inventory",
+    "asar": false,
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "desktop-config.json",
+      "app/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "app/assets/favicon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "AIDA Inventory",
+      "artifactName": "AIDA-Inventory-Setup-${version}-x64.${ext}"
+    }
+  }
+}
