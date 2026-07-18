@@ -1,7 +1,7 @@
 {
   "version": "3.1",
-  "date": "2026-07-17T18:26:18.919Z",
-  "shamsi_date": "۱۴۰۵/۰۴/۲۶",
+  "date": "2026-07-18T21:46:56.120Z",
+  "shamsi_date": "۱۴۰۵/۰۴/۲۸",
   "data": {
     "meta": {
       "company": "عرشه کاران",
@@ -24,8 +24,15 @@
     },
     "categories": [
       {
+        "name": "وادار",
+        "count": 187,
+        "products": 15,
+        "sell_total": 3412999000,
+        "profit": 459370000
+      },
+      {
         "name": "والپست_1.5_میل_فولادی",
-        "count": 369,
+        "count": 370,
         "products": 26,
         "sell_total": 3184931000,
         "profit": 654524000
@@ -39,31 +46,17 @@
       },
       {
         "name": "میلگرد_بستر",
-        "count": 265,
+        "count": 267,
         "products": 6,
-        "sell_total": 2052791000,
-        "profit": 464661900
+        "sell_total": 2069541000,
+        "profit": 470161900
       },
       {
-        "name": "وادار",
-        "count": 187,
-        "products": 15,
-        "sell_total": 3412999000,
-        "profit": 459370000
-      },
-      {
-        "name": "قطعات_والپست",
-        "count": 290,
-        "products": 15,
-        "sell_total": 692580000,
-        "profit": 275123700
-      },
-      {
-        "name": "اتصالات",
-        "count": 111,
-        "products": 20,
-        "sell_total": 1087926000,
-        "profit": 230576000
+        "name": "مواد_اولیه",
+        "count": 133,
+        "products": 2,
+        "sell_total": 1287640000,
+        "profit": 998000
       },
       {
         "name": "عرشه_فولادی",
@@ -73,6 +66,13 @@
         "profit": 173645000
       },
       {
+        "name": "اتصالات",
+        "count": 113,
+        "products": 20,
+        "sell_total": 1106326000,
+        "profit": 232976000
+      },
+      {
         "name": "والپست_1.25_فولادی",
         "count": 97,
         "products": 14,
@@ -80,25 +80,11 @@
         "profit": 176824004
       },
       {
-        "name": "پلاستوفوم",
-        "count": 86,
-        "products": 5,
-        "sell_total": 242096000,
-        "profit": 67876020
-      },
-      {
-        "name": "والپست_1.5_میل_گالوانیزه",
-        "count": 30,
-        "products": 11,
-        "sell_total": 173985000,
-        "profit": 46575000
-      },
-      {
-        "name": "والپست_2_میل_گالوانیزه",
-        "count": 6,
-        "products": 3,
-        "sell_total": 213000000,
-        "profit": 40000000
+        "name": "قطعات_والپست",
+        "count": 296,
+        "products": 15,
+        "sell_total": 708955000,
+        "profit": 281523700
       },
       {
         "name": "والپست_2_میل_فولادی",
@@ -108,11 +94,25 @@
         "profit": 35343500
       },
       {
-        "name": "مواد_اولیه",
-        "count": 131,
-        "products": 2,
-        "sell_total": 1287640000,
-        "profit": 998000
+        "name": "پلاستوفوم",
+        "count": 86,
+        "products": 5,
+        "sell_total": 242096000,
+        "profit": 67876020
+      },
+      {
+        "name": "والپست_2_میل_گالوانیزه",
+        "count": 6,
+        "products": 3,
+        "sell_total": 213000000,
+        "profit": 40000000
+      },
+      {
+        "name": "والپست_1.5_میل_گالوانیزه",
+        "count": 30,
+        "products": 11,
+        "sell_total": 173985000,
+        "profit": 46575000
       },
       {
         "name": "انواع فنس",
@@ -147,6 +147,7 @@
       "ادهمی",
       "ارفعی",
       "از بازار",
+      "اسدپور",
       "اسکندر زاده",
       "اصلاح موجودی",
       "اصلاح موجودی انبار",
@@ -535,7 +536,7 @@
         "category": "قطعات_والپست",
         "unit": "عدد",
         "weight": null,
-        "total_bought": 979,
+        "total_bought": 4979,
         "total_sold": 602
       },
       {
@@ -624,7 +625,7 @@
         "unit": "عدد",
         "weight": null,
         "total_bought": 33300,
-        "total_sold": 11797
+        "total_sold": 12047
       },
       {
         "name": "خرپایی گالوانیزه 11 سانتی",
@@ -648,7 +649,7 @@
         "unit": "شاخه",
         "weight": 0.5,
         "total_bought": 1280,
-        "total_sold": 770
+        "total_sold": 1020
       },
       {
         "name": "رول بولت HSA 90*10",
@@ -927,7 +928,7 @@
         "category": "والپست_1.5_میل_فولادی",
         "unit": "عدد",
         "weight": 1.37,
-        "total_bought": 643,
+        "total_bought": 693,
         "total_sold": 604
       },
       {
@@ -1103,8 +1104,8 @@
         "category": "قطعات_والپست",
         "unit": "عدد",
         "weight": 0.05,
-        "total_bought": 45046,
-        "total_sold": 27944
+        "total_bought": 47046,
+        "total_sold": 28194
       },
       {
         "name": "کانال آبرو",
@@ -1296,7 +1297,7 @@
         "unit": "عدد",
         "weight": 0.05,
         "total_bought": 44080,
-        "total_sold": 23682
+        "total_sold": 24932
       },
       {
         "name": "گیره گالوانیزه 2 میلیمتر",
@@ -1319,8 +1320,8 @@
         "category": "اتصالات",
         "unit": "عدد",
         "weight": null,
-        "total_bought": 1050,
-        "total_sold": 1050
+        "total_bought": 1450,
+        "total_sold": 1450
       },
       {
         "name": "نبشی 7*20",
@@ -1367,7 +1368,7 @@
         "category": "میلگرد_بستر",
         "unit": "شاخه",
         "weight": 0.48,
-        "total_bought": 6715,
+        "total_bought": 6716,
         "total_sold": 6058
       },
       {
@@ -1568,673 +1569,673 @@
         "product": "آچار بوکس",
         "stock": 43,
         "buy_price": 0,
-        "price": 85000
+        "price": 89250
       },
       {
         "product": "آچار ستاره ای",
         "stock": 2,
         "buy_price": 0,
-        "price": 89000
+        "price": 93450
       },
       {
         "product": "الیاف 120 گرمی 100 سانتی",
         "stock": 2345,
         "buy_price": 0,
-        "price": 113000
+        "price": 118650
       },
       {
         "product": "الیاف 120 گرمی 17 سانتی",
         "stock": 119,
         "buy_price": 0,
-        "price": 113000
+        "price": 118650
       },
       {
         "product": "الیاف 120 گرمی 25 سانتی",
         "stock": 18,
         "buy_price": 0,
-        "price": 113000
+        "price": 118650
       },
       {
         "product": "الیاف 120 گرمی 30 سانتی",
         "stock": 30,
         "buy_price": 0,
-        "price": 113000
+        "price": 118650
       },
       {
         "product": "الیاف 120 گرمی 33 سانتی",
         "stock": 1,
         "buy_price": 0,
-        "price": 113000
+        "price": 118650
       },
       {
         "product": "الیاف 160 گرمی 100 سانتی",
         "stock": 4800,
         "buy_price": 108000,
-        "price": 115000
+        "price": 120750
       },
       {
         "product": "الیاف 160 گرمی 100 سانتی زیرکونیوم",
         "stock": 1000,
         "buy_price": 0,
-        "price": 171000
+        "price": 179550
       },
       {
         "product": "الیاف 160 گرمی 30 سانتی",
         "stock": 1990,
         "buy_price": 0,
-        "price": 132000
+        "price": 138600
       },
       {
         "product": "الیاف 160 گرمی 40 سانتی",
         "stock": 200,
         "buy_price": 0,
-        "price": 132000
+        "price": 138600
       },
       {
         "product": "الیاف 160 گرمی 50 سانتی",
         "stock": 1450,
         "buy_price": 0,
-        "price": 139000
+        "price": 145950
       },
       {
         "product": "الیاف 80 گرمی 100 سانتی",
         "stock": 24743.5,
         "buy_price": 68000,
-        "price": 85000
+        "price": 89250
       },
       {
         "product": "الیاف 80 گرمی 20 سانتی",
         "stock": 60,
         "buy_price": 0,
-        "price": 86000
+        "price": 90300
       },
       {
         "product": "انکربولت 65*60",
         "stock": 120,
         "buy_price": 0,
-        "price": 9000
+        "price": 9450
       },
       {
         "product": "بست انتظار",
-        "stock": 377,
-        "buy_price": 0,
-        "price": 24000
+        "stock": 4377,
+        "buy_price": 19000,
+        "price": 27300
       },
       {
         "product": "بست تخت",
         "stock": 9150,
         "buy_price": 0,
-        "price": 12000
+        "price": 12600
       },
       {
         "product": "بست هشتگیر",
         "stock": 90,
         "buy_price": 0,
-        "price": 43000
+        "price": 45150
       },
       {
         "product": "پلیت 10*20 سه میل دو سوراخ",
         "stock": 1937,
         "buy_price": 0,
-        "price": 98000
+        "price": 102900
       },
       {
         "product": "پلیت 13*13 چهار میل چهار سوراخ",
         "stock": 325,
         "buy_price": 0,
-        "price": 130000
+        "price": 136500
       },
       {
         "product": "پلیت 15*15 بدون سوراخ",
         "stock": 172,
         "buy_price": 0,
-        "price": 138000
+        "price": 144900
       },
       {
         "product": "پلیت 20*20 چهار میل چهار سوراخ",
         "stock": 55,
         "buy_price": 0,
-        "price": 226000
+        "price": 237300
       },
       {
         "product": "پلیت 20*20 سه میل چهار سوراخ",
         "stock": 837,
         "buy_price": 0,
-        "price": 194000
+        "price": 203700
       },
       {
         "product": "پلیت 20*20 شش میل چهار سوراخ",
         "stock": 103,
         "buy_price": 0,
-        "price": 284000
+        "price": 298200
       },
       {
         "product": "پلیت گالوانیزه 12*10 دو میل دو سوراخ",
         "stock": -297,
         "buy_price": 25000,
-        "price": 45000
+        "price": 47250
       },
       {
         "product": "پیچ بولتکس",
         "stock": 1608,
         "buy_price": 6500,
-        "price": 10000
+        "price": 10500
       },
       {
         "product": "پیچ و رولپلاک",
-        "stock": 21503,
+        "stock": 21253,
         "buy_price": 0,
-        "price": 6000
+        "price": 6300
       },
       {
         "product": "خرپایی گالوانیزه 11 سانتی",
         "stock": 0,
         "buy_price": 0,
-        "price": 74000
+        "price": 77700
       },
       {
         "product": "خرپایی گالوانیزه 15 سانتی",
         "stock": 10,
         "buy_price": 0,
-        "price": 75000
+        "price": 78750
       },
       {
         "product": "خرپایی گالوانیزه 6 سانتی",
-        "stock": 510,
+        "stock": 260,
         "buy_price": 0,
-        "price": 73000
+        "price": 76650
       },
       {
         "product": "رول بولت HSA 90*10",
         "stock": 920,
         "buy_price": 28000,
-        "price": 36000
+        "price": 37800
       },
       {
         "product": "شاخه 3 متری",
-        "stock": 713.2400000000011,
+        "stock": 712.7600000000011,
         "buy_price": 84000,
-        "price": 78000
+        "price": 81900
       },
       {
         "product": "شاخه 65 سانتی قلاب",
-        "stock": 832.6500000000001,
+        "stock": 732.6500000000001,
         "buy_price": 98000,
-        "price": 98000
+        "price": 102900
       },
       {
         "product": "صفحه پلیت 13*19",
         "stock": 543,
         "buy_price": 0,
-        "price": 64000
+        "price": 67200
       },
       {
         "product": "صفحه پلیت 20*20 سانت ضخامت 2 میل",
         "stock": 39,
         "buy_price": 0,
-        "price": 90000
+        "price": 94500
       },
       {
         "product": "فولادی 1.25*10*20",
         "stock": 80,
         "buy_price": 0,
-        "price": 100000
+        "price": 105000
       },
       {
         "product": "فولادی 1.25*10*30",
         "stock": 0,
         "buy_price": 0,
-        "price": 174000
+        "price": 182700
       },
       {
         "product": "فولادی 1.25*10*36",
         "stock": 100,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "فولادی 1.25*10*40",
         "stock": -10,
         "buy_price": 0,
-        "price": 190000
+        "price": 199500
       },
       {
         "product": "فولادی 1.25*14*18",
         "stock": 40,
         "buy_price": 0,
-        "price": 103000
+        "price": 108150
       },
       {
         "product": "فولادی 1.25*14*20",
         "stock": 57,
         "buy_price": 0,
-        "price": 109000
+        "price": 114450
       },
       {
         "product": "فولادی 1.25*14*30",
         "stock": 195,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "فولادی 1.25*14*36",
         "stock": 438,
         "buy_price": 0,
-        "price": 191000
+        "price": 200550
       },
       {
         "product": "فولادی 1.25*14*40",
         "stock": 255,
         "buy_price": 0,
-        "price": 210000
+        "price": 252000
       },
       {
         "product": "فولادی 1.25*15*20",
         "stock": 77,
         "buy_price": 0,
-        "price": 110000
+        "price": 115500
       },
       {
         "product": "فولادی 1.25*15*30",
         "stock": -2,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "فولادی 1.25*15*36",
         "stock": 230,
         "buy_price": 0,
-        "price": 193000
+        "price": 202650
       },
       {
         "product": "فولادی 1.25*15*40",
         "stock": 32,
         "buy_price": 0,
-        "price": 210000
+        "price": 252000
       },
       {
         "product": "فولادی 1.5*10*20",
         "stock": 674,
         "buy_price": 0,
-        "price": 110000
+        "price": 115500
       },
       {
         "product": "فولادی 1.5*10*30",
         "stock": 123,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "فولادی 1.5*10*36",
         "stock": -50,
         "buy_price": 0,
-        "price": 200000
+        "price": 210000
       },
       {
         "product": "فولادی 1.5*10*40",
         "stock": 667,
         "buy_price": 0,
-        "price": 214000
+        "price": 224700
       },
       {
         "product": "فولادی 1.5*10*50",
         "stock": 1301,
         "buy_price": 0,
-        "price": 245000
+        "price": 265650
       },
       {
         "product": "فولادی 1.5*14*15",
         "stock": 20,
         "buy_price": 0,
-        "price": 104000
+        "price": 109200
       },
       {
         "product": "فولادی 1.5*14*18",
         "stock": 266,
         "buy_price": 0,
-        "price": 119000
+        "price": 124950
       },
       {
         "product": "فولادی 1.5*14*20",
         "stock": 1712,
         "buy_price": 0,
-        "price": 123000
+        "price": 129150
       },
       {
         "product": "فولادی 1.5*14*30",
         "stock": -162,
         "buy_price": 0,
-        "price": 194000
+        "price": 203700
       },
       {
         "product": "فولادی 1.5*14*36",
         "stock": 1385,
         "buy_price": 0,
-        "price": 239002
+        "price": 253050
       },
       {
         "product": "فولادی 1.5*14*40",
         "stock": 147,
         "buy_price": 0,
-        "price": 240000
+        "price": 254100
       },
       {
         "product": "فولادی 1.5*15*15",
         "stock": 265,
         "buy_price": 0,
-        "price": 108000
+        "price": 113400
       },
       {
         "product": "فولادی 1.5*15*18",
         "stock": 804,
         "buy_price": 0,
-        "price": 119000
+        "price": 124950
       },
       {
         "product": "فولادی 1.5*15*20",
         "stock": -174,
         "buy_price": 0,
-        "price": 123000
+        "price": 129150
       },
       {
         "product": "فولادی 1.5*15*30",
         "stock": -6,
         "buy_price": 0,
-        "price": 199000
+        "price": 208950
       },
       {
         "product": "فولادی 1.5*15*36",
         "stock": 120,
         "buy_price": 0,
-        "price": 210000
+        "price": 252000
       },
       {
         "product": "فولادی 1.5*15*40",
-        "stock": 39,
-        "buy_price": 0,
-        "price": 240000
+        "stock": 89,
+        "buy_price": 208000,
+        "price": 254100
       },
       {
         "product": "فولادی 1.5*15*50",
         "stock": 16,
         "buy_price": 0,
-        "price": 260000
+        "price": 292950
       },
       {
         "product": "فولادی 1.5*20*20",
         "stock": 508,
         "buy_price": 0,
-        "price": 176000
+        "price": 184800
       },
       {
         "product": "فولادی 1.5*20*30",
         "stock": 2,
         "buy_price": 0,
-        "price": 210000
+        "price": 252000
       },
       {
         "product": "فولادی 1.5*20*40",
         "stock": 9,
         "buy_price": 0,
-        "price": 260000
+        "price": 273000
       },
       {
         "product": "فولادی 1.5*20*50",
         "stock": 0,
         "buy_price": 0,
-        "price": 270000
+        "price": 295050
       },
       {
         "product": "فولادی 1.5*21*50",
         "stock": -137,
         "buy_price": 0,
-        "price": 275000
+        "price": 295050
       },
       {
         "product": "فولادی 1.5*26*50",
         "stock": 560,
         "buy_price": 0,
-        "price": 290000
+        "price": 304500
       },
       {
         "product": "فولادی 2*10*20",
         "stock": 146,
         "buy_price": 100000,
-        "price": 175000
+        "price": 183750
       },
       {
         "product": "فولادی 2*14*20",
         "stock": 1727,
         "buy_price": 110000,
-        "price": 132000
+        "price": 138600
       },
       {
         "product": "فولادی 2*14*30",
         "stock": 843,
         "buy_price": 0,
-        "price": 240000
+        "price": 254100
       },
       {
         "product": "فولادی 2*14*40",
         "stock": 1460,
         "buy_price": 230000,
-        "price": 256000
+        "price": 294000
       },
       {
         "product": "فولادی 2*15*20",
         "stock": -9,
         "buy_price": 0,
-        "price": 178000
+        "price": 186900
       },
       {
         "product": "فولادی 2*15*30",
         "stock": 10,
         "buy_price": 0,
-        "price": 240000
+        "price": 254100
       },
       {
         "product": "فولادی 2*15*40",
         "stock": -66,
         "buy_price": 0,
-        "price": 265000
+        "price": 294000
       },
       {
         "product": "فولادی 2*20*20",
         "stock": 515,
         "buy_price": 0,
-        "price": 200001
+        "price": 210001
       },
       {
         "product": "فولادی 2*20*30",
         "stock": 0,
         "buy_price": 0,
-        "price": 278000
+        "price": 291900
       },
       {
         "product": "فولادی 23*20",
         "stock": 0,
         "buy_price": 0,
-        "price": 145000
+        "price": 152250
       },
       {
         "product": "فولادی 23*30",
         "stock": 0,
         "buy_price": 0,
-        "price": 220000
+        "price": 231000
       },
       {
         "product": "فوم 13 سانت",
         "stock": 394,
         "buy_price": 25000,
-        "price": 35000
+        "price": 36750
       },
       {
         "product": "فوم 18 سانت",
         "stock": 216,
         "buy_price": 0,
-        "price": 52000
+        "price": 54600
       },
       {
         "product": "فوم 8 سانت",
         "stock": 368,
         "buy_price": 17000,
-        "price": 26000
+        "price": 27300
       },
       {
         "product": "قلاب گالوانیزه",
-        "stock": 17102,
+        "stock": 18852,
         "buy_price": 5900,
-        "price": 8000
+        "price": 10500
       },
       {
         "product": "کانال آبرو",
         "stock": 0,
         "buy_price": 0,
-        "price": 1300000
+        "price": 1365000
       },
       {
         "product": "کشویی 1.5*15.5*13",
         "stock": 245,
         "buy_price": 0,
-        "price": 98000
+        "price": 102900
       },
       {
         "product": "کشویی 1.5*16*15",
         "stock": 480,
         "buy_price": 0,
-        "price": 98000
+        "price": 102900
       },
       {
         "product": "کشویی 12*10",
         "stock": 1,
         "buy_price": 0,
-        "price": 73000
+        "price": 76650
       },
       {
         "product": "کشویی 16*14",
         "stock": 77,
         "buy_price": 0,
-        "price": 102000
+        "price": 107100
       },
       {
         "product": "کشویی فولادی  21*10",
         "stock": 80,
         "buy_price": 0,
-        "price": 69000
+        "price": 72450
       },
       {
         "product": "کشویی فولادی 16*20",
         "stock": -47,
         "buy_price": 0,
-        "price": 122000
+        "price": 128100
       },
       {
         "product": "گالوانیزه  1.5*20*40",
         "stock": 24,
         "buy_price": 0,
-        "price": 260000
+        "price": 273000
       },
       {
         "product": "گالوانیزه 1.5*10*20",
         "stock": -5,
         "buy_price": 0,
-        "price": 118000
+        "price": 123900
       },
       {
         "product": "گالوانیزه 1.5*10*30",
         "stock": 223,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "گالوانیزه 1.5*10*40",
         "stock": 188,
         "buy_price": 0,
-        "price": 239000
+        "price": 250950
       },
       {
         "product": "گالوانیزه 1.5*10*50",
         "stock": 10,
         "buy_price": 0,
-        "price": 250000
+        "price": 265650
       },
       {
         "product": "گالوانیزه 1.5*14*20",
         "stock": 454,
         "buy_price": 0,
-        "price": 132000
+        "price": 138600
       },
       {
         "product": "گالوانیزه 1.5*14*40",
         "stock": 550,
         "buy_price": 0,
-        "price": 252000
+        "price": 264600
       },
       {
         "product": "گالوانیزه 1.5*15*20",
         "stock": 50,
         "buy_price": 0,
-        "price": 131000
+        "price": 137550
       },
       {
         "product": "گالوانیزه 1.5*15*30",
         "stock": 123,
         "buy_price": 0,
-        "price": 195000
+        "price": 204750
       },
       {
         "product": "گالوانیزه 1.5*15*40",
         "stock": 38,
         "buy_price": 0,
-        "price": 252000
+        "price": 264600
       },
       {
         "product": "گالوانیزه 1.5*20*20",
         "stock": 46,
         "buy_price": 0,
-        "price": 177000
+        "price": 185850
       },
       {
         "product": "گالوانیزه 2*10*20",
         "stock": 0,
         "buy_price": 0,
-        "price": 174001
+        "price": 182701
       },
       {
         "product": "گالوانیزه 2*20*20",
         "stock": 0,
         "buy_price": 0,
-        "price": 201000
+        "price": 211050
       },
       {
         "product": "گروت پایه سیمانی",
         "stock": 9315,
         "buy_price": 0,
-        "price": 12000
+        "price": 12600
       },
       {
         "product": "گروت پایه گچی",
         "stock": 2795,
         "buy_price": 0,
-        "price": 10000
+        "price": 10500
       },
       {
         "product": "گیره فولادی",
         "stock": 3200,
         "buy_price": 0,
-        "price": 9000
+        "price": 9450
       },
       {
         "product": "گیره گالوانیزه",
-        "stock": 20398,
+        "stock": 19148,
         "buy_price": 0,
-        "price": 11000
+        "price": 11550
       },
       {
         "product": "گیره گالوانیزه 2 میلیمتر",
         "stock": 3570,
         "buy_price": 0,
-        "price": 12000
+        "price": 12600
       },
       {
         "product": "نام کالا",
@@ -2245,188 +2246,188 @@
       {
         "product": "نبشی 7*10",
         "stock": 0,
-        "buy_price": 48000,
-        "price": 46000
+        "buy_price": 40000,
+        "price": 48300
       },
       {
         "product": "نبشی 7*20",
         "stock": 270,
         "buy_price": 0,
-        "price": 64000
+        "price": 67200
       },
       {
         "product": "نبشی گالوانیزه 10*10",
         "stock": 105,
         "buy_price": 0,
-        "price": 57000
+        "price": 59850
       },
       {
         "product": "نبشی گالوانیزه 5*8*10",
         "stock": 50,
         "buy_price": 0,
-        "price": 59000
+        "price": 61950
       },
       {
         "product": "نبشی گالوانیزه 8*10*16",
         "stock": 0,
         "buy_price": 0,
-        "price": 94000
+        "price": 98700
       },
       {
         "product": "نردبانی گالوانیزه 11 سانتی",
         "stock": 4670,
         "buy_price": 48800,
-        "price": 60000
+        "price": 63000
       },
       {
         "product": "نردبانی گالوانیزه 15 سانتی",
-        "stock": 657,
+        "stock": 658,
         "buy_price": 51320,
-        "price": 66000
+        "price": 69300
       },
       {
         "product": "نردبانی گالوانیزه 6 سانتی",
         "stock": 332,
         "buy_price": 47120,
-        "price": 63000
+        "price": 66150
       },
       {
         "product": "وادار H-10  دو میل",
         "stock": 2,
         "buy_price": 0,
-        "price": 2370000
+        "price": 2488500
       },
       {
         "product": "وادار H-10  یک و نیم میل",
         "stock": 32,
         "buy_price": 0,
-        "price": 2100000
+        "price": 2205000
       },
       {
         "product": "وادار H-14 یک و نیم میل",
         "stock": 67,
         "buy_price": 0,
-        "price": 2332000
+        "price": 2448600
       },
       {
         "product": "وادار H-15 دو میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 2320000
+        "price": 2436000
       },
       {
         "product": "وادار H-15 یک و نیم میل",
         "stock": -7,
         "buy_price": 0,
-        "price": 2200000
+        "price": 2449650
       },
       {
         "product": "وادار H-20  دو میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 2850000
+        "price": 2992500
       },
       {
         "product": "وادار H-20  یک و نیم میل",
         "stock": 1,
         "buy_price": 0,
-        "price": 2670000
+        "price": 2803500
       },
       {
         "product": "وادار U-10 دو میل",
         "stock": 3,
         "buy_price": 0,
-        "price": 1400000
+        "price": 1473150
       },
       {
         "product": "وادار U-10 یک و نیم میل",
         "stock": 30,
         "buy_price": 0,
-        "price": 1400000
+        "price": 1470000
       },
       {
         "product": "وادار U-14 دو میل",
         "stock": 203,
         "buy_price": 1322000,
-        "price": 1450000
+        "price": 1522500
       },
       {
         "product": "وادار U-14 یک و نیم میل",
         "stock": 21,
         "buy_price": 0,
-        "price": 1350000
+        "price": 1471050
       },
       {
         "product": "وادار U-15 یک و نیم میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 1400000
+        "price": 1472100
       },
       {
         "product": "وادار U-20 دو میل",
         "stock": 0,
         "buy_price": 0,
-        "price": 1600000
+        "price": 2449650
       },
       {
         "product": "وادار U-20 یک و نیم میل",
         "stock": 1.5,
         "buy_price": 0,
-        "price": 1881000
+        "price": 1975050
       },
       {
         "product": "واشر گالوانیزه",
         "stock": 1950,
         "buy_price": 0,
-        "price": 1000
+        "price": 1050
       },
       {
         "product": "ورق گالوانیزه",
         "stock": 0,
         "buy_price": 158500,
-        "price": 185700
+        "price": 194985
       },
       {
         "product": "وادار U-15 دو میل",
         "stock": 62,
-        "price": 1480000,
+        "price": 1554000,
         "buy_price": 1320000
       },
       {
         "product": "فوم 15 سانت ضخامت 3 سانت",
         "stock": 0,
-        "price": 63000,
+        "price": 66150,
         "buy_price": 0
       },
       {
         "product": "فوم 10 سانت ضخامت 3 سانت",
         "stock": 0,
-        "price": 42000,
+        "price": 44100,
         "buy_price": 0
       },
       {
         "product": "فنس گالوانیزه",
         "stock": 9,
         "buy_price": 34000,
-        "price": 50000
+        "price": 52500
       },
       {
         "product": "والپست فولادی 18*20",
         "stock": -100,
         "buy_price": 120000,
-        "price": 135000
+        "price": 141750
       },
       {
         "product": "بست رادیکالی",
         "stock": 100,
         "buy_price": 15000,
-        "price": 20000
+        "price": 21000
       },
       {
         "product": "گلمیخ 100*19",
         "stock": 0,
         "buy_price": 57500,
-        "price": 75000
+        "price": 78750
       }
     ],
     "inventory": [
@@ -2819,12 +2820,12 @@
         "category": "قطعات_والپست",
         "product": "گیره گالوانیزه",
         "opening": 0,
-        "changes": 20398,
-        "balance": 20398,
+        "changes": 19148,
+        "balance": 19148,
         "last_buy": 8500,
-        "last_sell": 10500,
-        "value_buy": 173383000,
-        "value_sell": 214179000
+        "last_sell": 9000,
+        "value_buy": 162758000,
+        "value_sell": 172332000
       },
       {
         "category": "قطعات_والپست",
@@ -2877,9 +2878,9 @@
         "changes": 16,
         "balance": 16,
         "last_buy": 140000,
-        "last_sell": 260000,
+        "last_sell": 279000,
         "value_buy": 2240000,
-        "value_sell": 4160000
+        "value_sell": 4464000
       },
       {
         "category": "والپست_1.5_میل_گالوانیزه",
@@ -3006,12 +3007,12 @@
         "category": "والپست_1.5_میل_فولادی",
         "product": "فولادی 1.5*15*40",
         "opening": 0,
-        "changes": 39,
-        "balance": 39,
+        "changes": 89,
+        "balance": 89,
         "last_buy": 208000,
         "last_sell": 220000,
-        "value_buy": 8112000,
-        "value_sell": 8580000
+        "value_buy": 18512000,
+        "value_sell": 19580000
       },
       {
         "category": "والپست_1.5_میل_گالوانیزه",
@@ -3130,9 +3131,9 @@
         "changes": 10,
         "balance": 10,
         "last_buy": 125000,
-        "last_sell": 250000,
+        "last_sell": 253000,
         "value_buy": 1250000,
-        "value_sell": 2500000
+        "value_sell": 2530000
       },
       {
         "category": "والپست_1.5_میل_گالوانیزه",
@@ -3160,12 +3161,12 @@
         "category": "قطعات_والپست",
         "product": "قلاب گالوانیزه",
         "opening": 0,
-        "changes": 17102,
-        "balance": 17102,
+        "changes": 18852,
+        "balance": 18852,
         "last_buy": 5900,
-        "last_sell": 8000,
-        "value_buy": 100901800,
-        "value_sell": 136816000
+        "last_sell": 7500,
+        "value_buy": 111226800,
+        "value_sell": 141390000
       },
       {
         "category": "والپست_2_میل_فولادی",
@@ -3248,12 +3249,12 @@
         "category": "میلگرد_بستر",
         "product": "خرپایی گالوانیزه 6 سانتی",
         "opening": 0,
-        "changes": 510,
-        "balance": 510,
+        "changes": 260,
+        "balance": 260,
         "last_buy": 45000,
-        "last_sell": 60000,
-        "value_buy": 22950000,
-        "value_sell": 30600000
+        "last_sell": 67000,
+        "value_buy": 11700000,
+        "value_sell": 17420000
       },
       {
         "category": "میلگرد_بستر",
@@ -3270,23 +3271,23 @@
         "category": "میلگرد_بستر",
         "product": "نردبانی گالوانیزه 15 سانتی",
         "opening": 0,
-        "changes": 657,
-        "balance": 657,
+        "changes": 658,
+        "balance": 658,
         "last_buy": 51320,
         "last_sell": 62000,
-        "value_buy": 33717240,
-        "value_sell": 40734000
+        "value_buy": 33768560,
+        "value_sell": 40796000
       },
       {
         "category": "قطعات_والپست",
         "product": "بست انتظار",
         "opening": 0,
-        "changes": 377,
-        "balance": 377,
+        "changes": 4377,
+        "balance": 4377,
         "last_buy": 19000,
         "last_sell": 26000,
-        "value_buy": 7163000,
-        "value_sell": 9802000
+        "value_buy": 83163000,
+        "value_sell": 113802000
       },
       {
         "category": "قطعات_والپست",
@@ -3314,12 +3315,12 @@
         "category": "قطعات_والپست",
         "product": "پیچ و رولپلاک",
         "opening": 0,
-        "changes": 21503,
-        "balance": 21503,
+        "changes": 21253,
+        "balance": 21253,
         "last_buy": 3000,
-        "last_sell": 6000,
-        "value_buy": 64509000,
-        "value_sell": 129018000
+        "last_sell": 5000,
+        "value_buy": 63759000,
+        "value_sell": 106265000
       },
       {
         "category": "والپست_1.5_میل_فولادی",
@@ -3490,12 +3491,12 @@
         "category": "مواد_اولیه",
         "product": "شاخه 3 متری",
         "opening": 0,
-        "changes": 713.2400000000011,
-        "balance": 713.2400000000011,
+        "changes": 712.7600000000011,
+        "balance": 712.7600000000011,
         "last_buy": 84000,
         "last_sell": 84000,
-        "value_buy": 59912160.0000001,
-        "value_sell": 59912160.0000001
+        "value_buy": 59871840.0000001,
+        "value_sell": 59871840.0000001
       },
       {
         "category": "اتصالات",
@@ -3514,8 +3515,8 @@
         "opening": 0,
         "changes": 0,
         "balance": 0,
-        "last_buy": 48000,
-        "last_sell": 57000,
+        "last_buy": 40000,
+        "last_sell": 46000,
         "value_buy": 0,
         "value_sell": 0
       },
@@ -3710,12 +3711,12 @@
         "category": "مواد_اولیه",
         "product": "شاخه 65 سانتی قلاب",
         "opening": 0,
-        "changes": 832.6500000000001,
-        "balance": 832.6500000000001,
+        "changes": 732.6500000000001,
+        "balance": 732.6500000000001,
         "last_buy": 98000,
         "last_sell": 98000,
-        "value_buy": 81599700.00000001,
-        "value_sell": 81599700.00000001
+        "value_buy": 71799700.00000001,
+        "value_sell": 71799700.00000001
       },
       {
         "category": "والپست_1.25_فولادی",
@@ -3997,6 +3998,2178 @@
     "production": [],
     "returns": [],
     "price_log": [
+      {
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "date": "1405/04/28",
+        "product": "گلمیخ 100*19",
+        "kind": "فروش",
+        "old": 75000,
+        "new": 78750,
+        "change_type": "افزایش",
+        "value": 3750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "date": "1405/04/28",
+        "product": "بست رادیکالی",
+        "kind": "فروش",
+        "old": 20000,
+        "new": 21000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "date": "1405/04/28",
+        "product": "والپست فولادی 18*20",
+        "kind": "فروش",
+        "old": 135000,
+        "new": 141750,
+        "change_type": "افزایش",
+        "value": 6750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "date": "1405/04/28",
+        "product": "فنس گالوانیزه",
+        "kind": "فروش",
+        "old": 50000,
+        "new": 52500,
+        "change_type": "افزایش",
+        "value": 2500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "date": "1405/04/28",
+        "product": "فوم 10 سانت ضخامت 3 سانت",
+        "kind": "فروش",
+        "old": 42000,
+        "new": 44100,
+        "change_type": "افزایش",
+        "value": 2100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فوم 15 سانت ضخامت 3 سانت",
+        "kind": "فروش",
+        "old": 63000,
+        "new": 66150,
+        "change_type": "افزایش",
+        "value": 3150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-15 دو میل",
+        "kind": "فروش",
+        "old": 1480000,
+        "new": 1554000,
+        "change_type": "افزایش",
+        "value": 74000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "ورق گالوانیزه",
+        "kind": "فروش",
+        "old": 185700,
+        "new": 194985,
+        "change_type": "افزایش",
+        "value": 9285,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "واشر گالوانیزه",
+        "kind": "فروش",
+        "old": 1000,
+        "new": 1050,
+        "change_type": "افزایش",
+        "value": 50,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-20 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1881000,
+        "new": 1975050,
+        "change_type": "افزایش",
+        "value": 94050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-20 دو میل",
+        "kind": "فروش",
+        "old": 2333000,
+        "new": 2449650,
+        "change_type": "افزایش",
+        "value": 116650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1402000,
+        "new": 1472100,
+        "change_type": "افزایش",
+        "value": 70100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-14 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1401000,
+        "new": 1471050,
+        "change_type": "افزایش",
+        "value": 70050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-14 دو میل",
+        "kind": "فروش",
+        "old": 1450000,
+        "new": 1522500,
+        "change_type": "افزایش",
+        "value": 72500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-10 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1400000,
+        "new": 1470000,
+        "change_type": "افزایش",
+        "value": 70000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار U-10 دو میل",
+        "kind": "فروش",
+        "old": 1403000,
+        "new": 1473150,
+        "change_type": "افزایش",
+        "value": 70150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-20  یک و نیم میل",
+        "kind": "فروش",
+        "old": 2670000,
+        "new": 2803500,
+        "change_type": "افزایش",
+        "value": 133500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-20  دو میل",
+        "kind": "فروش",
+        "old": 2850000,
+        "new": 2992500,
+        "change_type": "افزایش",
+        "value": 142500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 2333000,
+        "new": 2449650,
+        "change_type": "افزایش",
+        "value": 116650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-15 دو میل",
+        "kind": "فروش",
+        "old": 2320000,
+        "new": 2436000,
+        "change_type": "افزایش",
+        "value": 116000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-14 یک و نیم میل",
+        "kind": "فروش",
+        "old": 2332000,
+        "new": 2448600,
+        "change_type": "افزایش",
+        "value": 116600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-10  یک و نیم میل",
+        "kind": "فروش",
+        "old": 2100000,
+        "new": 2205000,
+        "change_type": "افزایش",
+        "value": 105000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "وادار H-10  دو میل",
+        "kind": "فروش",
+        "old": 2370000,
+        "new": 2488500,
+        "change_type": "افزایش",
+        "value": 118500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نردبانی گالوانیزه 6 سانتی",
+        "kind": "فروش",
+        "old": 63000,
+        "new": 66150,
+        "change_type": "افزایش",
+        "value": 3150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نردبانی گالوانیزه 15 سانتی",
+        "kind": "فروش",
+        "old": 66000,
+        "new": 69300,
+        "change_type": "افزایش",
+        "value": 3300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نردبانی گالوانیزه 11 سانتی",
+        "kind": "فروش",
+        "old": 60000,
+        "new": 63000,
+        "change_type": "افزایش",
+        "value": 3000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نبشی گالوانیزه 8*10*16",
+        "kind": "فروش",
+        "old": 94000,
+        "new": 98700,
+        "change_type": "افزایش",
+        "value": 4700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نبشی گالوانیزه 5*8*10",
+        "kind": "فروش",
+        "old": 59000,
+        "new": 61950,
+        "change_type": "افزایش",
+        "value": 2950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نبشی گالوانیزه 10*10",
+        "kind": "فروش",
+        "old": 57000,
+        "new": 59850,
+        "change_type": "افزایش",
+        "value": 2850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نبشی 7*20",
+        "kind": "فروش",
+        "old": 64000,
+        "new": 67200,
+        "change_type": "افزایش",
+        "value": 3200,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "نبشی 7*10",
+        "kind": "فروش",
+        "old": 46000,
+        "new": 48300,
+        "change_type": "افزایش",
+        "value": 2300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گیره گالوانیزه 2 میلیمتر",
+        "kind": "فروش",
+        "old": 12000,
+        "new": 12600,
+        "change_type": "افزایش",
+        "value": 600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گیره گالوانیزه",
+        "kind": "فروش",
+        "old": 11000,
+        "new": 11550,
+        "change_type": "افزایش",
+        "value": 550,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گیره فولادی",
+        "kind": "فروش",
+        "old": 9000,
+        "new": 9450,
+        "change_type": "افزایش",
+        "value": 450,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گروت پایه گچی",
+        "kind": "فروش",
+        "old": 10000,
+        "new": 10500,
+        "change_type": "افزایش",
+        "value": 500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گروت پایه سیمانی",
+        "kind": "فروش",
+        "old": 12000,
+        "new": 12600,
+        "change_type": "افزایش",
+        "value": 600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 2*20*20",
+        "kind": "فروش",
+        "old": 201000,
+        "new": 211050,
+        "change_type": "افزایش",
+        "value": 10050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 2*10*20",
+        "kind": "فروش",
+        "old": 174001,
+        "new": 182701,
+        "change_type": "افزایش",
+        "value": 8700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*20*20",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*15*40",
+        "kind": "فروش",
+        "old": 252000,
+        "new": 264600,
+        "change_type": "افزایش",
+        "value": 12600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*15*30",
+        "kind": "فروش",
+        "old": 195000,
+        "new": 204750,
+        "change_type": "افزایش",
+        "value": 9750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*15*20",
+        "kind": "فروش",
+        "old": 131000,
+        "new": 137550,
+        "change_type": "افزایش",
+        "value": 6550,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*14*40",
+        "kind": "فروش",
+        "old": 252000,
+        "new": 264600,
+        "change_type": "افزایش",
+        "value": 12600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*14*20",
+        "kind": "فروش",
+        "old": 132000,
+        "new": 138600,
+        "change_type": "افزایش",
+        "value": 6600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*10*50",
+        "kind": "فروش",
+        "old": 253000,
+        "new": 265650,
+        "change_type": "افزایش",
+        "value": 12650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*10*40",
+        "kind": "فروش",
+        "old": 239000,
+        "new": 250950,
+        "change_type": "افزایش",
+        "value": 11950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*10*30",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*10*20",
+        "kind": "فروش",
+        "old": 118000,
+        "new": 123900,
+        "change_type": "افزایش",
+        "value": 5900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه  1.5*20*40",
+        "kind": "فروش",
+        "old": 260000,
+        "new": 273000,
+        "change_type": "افزایش",
+        "value": 13000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی فولادی 16*20",
+        "kind": "فروش",
+        "old": 122000,
+        "new": 128100,
+        "change_type": "افزایش",
+        "value": 6100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی فولادی  21*10",
+        "kind": "فروش",
+        "old": 69000,
+        "new": 72450,
+        "change_type": "افزایش",
+        "value": 3450,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی 16*14",
+        "kind": "فروش",
+        "old": 102000,
+        "new": 107100,
+        "change_type": "افزایش",
+        "value": 5100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی 12*10",
+        "kind": "فروش",
+        "old": 73000,
+        "new": 76650,
+        "change_type": "افزایش",
+        "value": 3650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی 1.5*16*15",
+        "kind": "فروش",
+        "old": 98000,
+        "new": 102900,
+        "change_type": "افزایش",
+        "value": 4900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کشویی 1.5*15.5*13",
+        "kind": "فروش",
+        "old": 98000,
+        "new": 102900,
+        "change_type": "افزایش",
+        "value": 4900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "کانال آبرو",
+        "kind": "فروش",
+        "old": 1300000,
+        "new": 1365000,
+        "change_type": "افزایش",
+        "value": 65000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "قلاب گالوانیزه",
+        "kind": "فروش",
+        "old": 10000,
+        "new": 10500,
+        "change_type": "افزایش",
+        "value": 500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فوم 8 سانت",
+        "kind": "فروش",
+        "old": 26000,
+        "new": 27300,
+        "change_type": "افزایش",
+        "value": 1300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فوم 18 سانت",
+        "kind": "فروش",
+        "old": 52000,
+        "new": 54600,
+        "change_type": "افزایش",
+        "value": 2600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فوم 13 سانت",
+        "kind": "فروش",
+        "old": 35000,
+        "new": 36750,
+        "change_type": "افزایش",
+        "value": 1750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 23*30",
+        "kind": "فروش",
+        "old": 220000,
+        "new": 231000,
+        "change_type": "افزایش",
+        "value": 11000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 23*20",
+        "kind": "فروش",
+        "old": 145000,
+        "new": 152250,
+        "change_type": "افزایش",
+        "value": 7250,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*20*30",
+        "kind": "فروش",
+        "old": 278000,
+        "new": 291900,
+        "change_type": "افزایش",
+        "value": 13900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*20*20",
+        "kind": "فروش",
+        "old": 200001,
+        "new": 210001,
+        "change_type": "افزایش",
+        "value": 10000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*40",
+        "kind": "فروش",
+        "old": 280000,
+        "new": 294000,
+        "change_type": "افزایش",
+        "value": 14000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*30",
+        "kind": "فروش",
+        "old": 242000,
+        "new": 254100,
+        "change_type": "افزایش",
+        "value": 12100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*20",
+        "kind": "فروش",
+        "old": 178000,
+        "new": 186900,
+        "change_type": "افزایش",
+        "value": 8900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*40",
+        "kind": "فروش",
+        "old": 280000,
+        "new": 294000,
+        "change_type": "افزایش",
+        "value": 14000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*30",
+        "kind": "فروش",
+        "old": 242000,
+        "new": 254100,
+        "change_type": "افزایش",
+        "value": 12100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*20",
+        "kind": "فروش",
+        "old": 132000,
+        "new": 138600,
+        "change_type": "افزایش",
+        "value": 6600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*10*20",
+        "kind": "فروش",
+        "old": 175000,
+        "new": 183750,
+        "change_type": "افزایش",
+        "value": 8750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*26*50",
+        "kind": "فروش",
+        "old": 290000,
+        "new": 304500,
+        "change_type": "افزایش",
+        "value": 14500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*21*50",
+        "kind": "فروش",
+        "old": 281000,
+        "new": 295050,
+        "change_type": "افزایش",
+        "value": 14050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*50",
+        "kind": "فروش",
+        "old": 281000,
+        "new": 295050,
+        "change_type": "افزایش",
+        "value": 14050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*40",
+        "kind": "فروش",
+        "old": 260000,
+        "new": 273000,
+        "change_type": "افزایش",
+        "value": 13000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*30",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 252000,
+        "change_type": "افزایش",
+        "value": 12000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*20",
+        "kind": "فروش",
+        "old": 176000,
+        "new": 184800,
+        "change_type": "افزایش",
+        "value": 8800,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*50",
+        "kind": "فروش",
+        "old": 279000,
+        "new": 292950,
+        "change_type": "افزایش",
+        "value": 13950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*40",
+        "kind": "فروش",
+        "old": 242000,
+        "new": 254100,
+        "change_type": "افزایش",
+        "value": 12100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*36",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 252000,
+        "change_type": "افزایش",
+        "value": 12000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*30",
+        "kind": "فروش",
+        "old": 199000,
+        "new": 208950,
+        "change_type": "افزایش",
+        "value": 9950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*20",
+        "kind": "فروش",
+        "old": 123000,
+        "new": 129150,
+        "change_type": "افزایش",
+        "value": 6150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.811Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*18",
+        "kind": "فروش",
+        "old": 119000,
+        "new": 124950,
+        "change_type": "افزایش",
+        "value": 5950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*15",
+        "kind": "فروش",
+        "old": 108000,
+        "new": 113400,
+        "change_type": "افزایش",
+        "value": 5400,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*40",
+        "kind": "فروش",
+        "old": 242000,
+        "new": 254100,
+        "change_type": "افزایش",
+        "value": 12100,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*36",
+        "kind": "فروش",
+        "old": 241000,
+        "new": 253050,
+        "change_type": "افزایش",
+        "value": 12050,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*30",
+        "kind": "فروش",
+        "old": 194000,
+        "new": 203700,
+        "change_type": "افزایش",
+        "value": 9700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*20",
+        "kind": "فروش",
+        "old": 123000,
+        "new": 129150,
+        "change_type": "افزایش",
+        "value": 6150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*18",
+        "kind": "فروش",
+        "old": 119000,
+        "new": 124950,
+        "change_type": "افزایش",
+        "value": 5950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*15",
+        "kind": "فروش",
+        "old": 104000,
+        "new": 109200,
+        "change_type": "افزایش",
+        "value": 5200,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*50",
+        "kind": "فروش",
+        "old": 253000,
+        "new": 265650,
+        "change_type": "افزایش",
+        "value": 12650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*40",
+        "kind": "فروش",
+        "old": 214000,
+        "new": 224700,
+        "change_type": "افزایش",
+        "value": 10700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*36",
+        "kind": "فروش",
+        "old": 200000,
+        "new": 210000,
+        "change_type": "افزایش",
+        "value": 10000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*30",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*20",
+        "kind": "فروش",
+        "old": 110000,
+        "new": 115500,
+        "change_type": "افزایش",
+        "value": 5500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*15*40",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 252000,
+        "change_type": "افزایش",
+        "value": 12000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*15*36",
+        "kind": "فروش",
+        "old": 193000,
+        "new": 202650,
+        "change_type": "افزایش",
+        "value": 9650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*15*30",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*15*20",
+        "kind": "فروش",
+        "old": 110000,
+        "new": 115500,
+        "change_type": "افزایش",
+        "value": 5500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*40",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 252000,
+        "change_type": "افزایش",
+        "value": 12000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*36",
+        "kind": "فروش",
+        "old": 191000,
+        "new": 200550,
+        "change_type": "افزایش",
+        "value": 9550,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*30",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*20",
+        "kind": "فروش",
+        "old": 109000,
+        "new": 114450,
+        "change_type": "افزایش",
+        "value": 5450,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*18",
+        "kind": "فروش",
+        "old": 103000,
+        "new": 108150,
+        "change_type": "افزایش",
+        "value": 5150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*10*40",
+        "kind": "فروش",
+        "old": 190000,
+        "new": 199500,
+        "change_type": "افزایش",
+        "value": 9500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*10*36",
+        "kind": "فروش",
+        "old": 177000,
+        "new": 185850,
+        "change_type": "افزایش",
+        "value": 8850,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*10*30",
+        "kind": "فروش",
+        "old": 174000,
+        "new": 182700,
+        "change_type": "افزایش",
+        "value": 8700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*10*20",
+        "kind": "فروش",
+        "old": 100000,
+        "new": 105000,
+        "change_type": "افزایش",
+        "value": 5000,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "صفحه پلیت 20*20 سانت ضخامت 2 میل",
+        "kind": "فروش",
+        "old": 90000,
+        "new": 94500,
+        "change_type": "افزایش",
+        "value": 4500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "صفحه پلیت 13*19",
+        "kind": "فروش",
+        "old": 64000,
+        "new": 67200,
+        "change_type": "افزایش",
+        "value": 3200,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "شاخه 65 سانتی قلاب",
+        "kind": "فروش",
+        "old": 98000,
+        "new": 102900,
+        "change_type": "افزایش",
+        "value": 4900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "شاخه 3 متری",
+        "kind": "فروش",
+        "old": 78000,
+        "new": 81900,
+        "change_type": "افزایش",
+        "value": 3900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "رول بولت HSA 90*10",
+        "kind": "فروش",
+        "old": 36000,
+        "new": 37800,
+        "change_type": "افزایش",
+        "value": 1800,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "خرپایی گالوانیزه 6 سانتی",
+        "kind": "فروش",
+        "old": 73000,
+        "new": 76650,
+        "change_type": "افزایش",
+        "value": 3650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "خرپایی گالوانیزه 15 سانتی",
+        "kind": "فروش",
+        "old": 75000,
+        "new": 78750,
+        "change_type": "افزایش",
+        "value": 3750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "خرپایی گالوانیزه 11 سانتی",
+        "kind": "فروش",
+        "old": 74000,
+        "new": 77700,
+        "change_type": "افزایش",
+        "value": 3700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پیچ و رولپلاک",
+        "kind": "فروش",
+        "old": 6000,
+        "new": 6300,
+        "change_type": "افزایش",
+        "value": 300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پیچ بولتکس",
+        "kind": "فروش",
+        "old": 10000,
+        "new": 10500,
+        "change_type": "افزایش",
+        "value": 500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت گالوانیزه 12*10 دو میل دو سوراخ",
+        "kind": "فروش",
+        "old": 45000,
+        "new": 47250,
+        "change_type": "افزایش",
+        "value": 2250,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 20*20 شش میل چهار سوراخ",
+        "kind": "فروش",
+        "old": 284000,
+        "new": 298200,
+        "change_type": "افزایش",
+        "value": 14200,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 20*20 سه میل چهار سوراخ",
+        "kind": "فروش",
+        "old": 194000,
+        "new": 203700,
+        "change_type": "افزایش",
+        "value": 9700,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 20*20 چهار میل چهار سوراخ",
+        "kind": "فروش",
+        "old": 226000,
+        "new": 237300,
+        "change_type": "افزایش",
+        "value": 11300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 15*15 بدون سوراخ",
+        "kind": "فروش",
+        "old": 138000,
+        "new": 144900,
+        "change_type": "افزایش",
+        "value": 6900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 13*13 چهار میل چهار سوراخ",
+        "kind": "فروش",
+        "old": 130000,
+        "new": 136500,
+        "change_type": "افزایش",
+        "value": 6500,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "پلیت 10*20 سه میل دو سوراخ",
+        "kind": "فروش",
+        "old": 98000,
+        "new": 102900,
+        "change_type": "افزایش",
+        "value": 4900,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "بست هشتگیر",
+        "kind": "فروش",
+        "old": 43000,
+        "new": 45150,
+        "change_type": "افزایش",
+        "value": 2150,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "بست تخت",
+        "kind": "فروش",
+        "old": 12000,
+        "new": 12600,
+        "change_type": "افزایش",
+        "value": 600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "بست انتظار",
+        "kind": "فروش",
+        "old": 26000,
+        "new": 27300,
+        "change_type": "افزایش",
+        "value": 1300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "انکربولت 65*60",
+        "kind": "فروش",
+        "old": 9000,
+        "new": 9450,
+        "change_type": "افزایش",
+        "value": 450,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 80 گرمی 20 سانتی",
+        "kind": "فروش",
+        "old": 86000,
+        "new": 90300,
+        "change_type": "افزایش",
+        "value": 4300,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 80 گرمی 100 سانتی",
+        "kind": "فروش",
+        "old": 85000,
+        "new": 89250,
+        "change_type": "افزایش",
+        "value": 4250,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 160 گرمی 50 سانتی",
+        "kind": "فروش",
+        "old": 139000,
+        "new": 145950,
+        "change_type": "افزایش",
+        "value": 6950,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 160 گرمی 40 سانتی",
+        "kind": "فروش",
+        "old": 132000,
+        "new": 138600,
+        "change_type": "افزایش",
+        "value": 6600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 160 گرمی 30 سانتی",
+        "kind": "فروش",
+        "old": 132000,
+        "new": 138600,
+        "change_type": "افزایش",
+        "value": 6600,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 160 گرمی 100 سانتی زیرکونیوم",
+        "kind": "فروش",
+        "old": 171000,
+        "new": 179550,
+        "change_type": "افزایش",
+        "value": 8550,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 160 گرمی 100 سانتی",
+        "kind": "فروش",
+        "old": 115000,
+        "new": 120750,
+        "change_type": "افزایش",
+        "value": 5750,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 120 گرمی 33 سانتی",
+        "kind": "فروش",
+        "old": 113000,
+        "new": 118650,
+        "change_type": "افزایش",
+        "value": 5650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 120 گرمی 30 سانتی",
+        "kind": "فروش",
+        "old": 113000,
+        "new": 118650,
+        "change_type": "افزایش",
+        "value": 5650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 120 گرمی 25 سانتی",
+        "kind": "فروش",
+        "old": 113000,
+        "new": 118650,
+        "change_type": "افزایش",
+        "value": 5650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 120 گرمی 17 سانتی",
+        "kind": "فروش",
+        "old": 113000,
+        "new": 118650,
+        "change_type": "افزایش",
+        "value": 5650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "الیاف 120 گرمی 100 سانتی",
+        "kind": "فروش",
+        "old": 113000,
+        "new": 118650,
+        "change_type": "افزایش",
+        "value": 5650,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "آچار ستاره ای",
+        "kind": "فروش",
+        "old": 89000,
+        "new": 93450,
+        "change_type": "افزایش",
+        "value": 4450,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:45:39.810Z",
+        "date": "1405/04/28",
+        "product": "آچار بوکس",
+        "kind": "فروش",
+        "old": 85000,
+        "new": 89250,
+        "change_type": "افزایش",
+        "value": 4250,
+        "user": "مدیر",
+        "source": "تغییر گروهی قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*30",
+        "kind": "فروش",
+        "old": 241000,
+        "new": 242000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*30",
+        "kind": "فروش",
+        "old": 241000,
+        "new": 242000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*40",
+        "kind": "فروش",
+        "old": 241000,
+        "new": 242000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*40",
+        "kind": "فروش",
+        "old": 241000,
+        "new": 242000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*21*50",
+        "kind": "فروش",
+        "old": 280000,
+        "new": 281000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*50",
+        "kind": "فروش",
+        "old": 280000,
+        "new": 281000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:15.425Z",
+        "date": "1405/04/28",
+        "product": "وادار U-10 دو میل",
+        "kind": "فروش",
+        "old": 1402000,
+        "new": 1403000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*30",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 241000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*30",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 241000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*40",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 241000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*40",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 241000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*40",
+        "kind": "فروش",
+        "old": 279000,
+        "new": 280000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*40",
+        "kind": "فروش",
+        "old": 279000,
+        "new": 280000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*21*50",
+        "kind": "فروش",
+        "old": 279000,
+        "new": 280000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*50",
+        "kind": "فروش",
+        "old": 279000,
+        "new": 280000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "وادار U-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1401000,
+        "new": 1402000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "وادار U-10 دو میل",
+        "kind": "فروش",
+        "old": 1401000,
+        "new": 1402000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:14.340Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*14*36",
+        "kind": "فروش",
+        "old": 239002,
+        "new": 241000,
+        "change_type": "افزایش",
+        "value": 1998,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.549Z",
+        "date": "1405/04/28",
+        "product": "وادار U-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1400000,
+        "new": 1401000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.549Z",
+        "date": "1405/04/28",
+        "product": "وادار U-10 دو میل",
+        "kind": "فروش",
+        "old": 1400000,
+        "new": 1401000,
+        "change_type": "افزایش",
+        "value": 1000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "گالوانیزه 1.5*10*50",
+        "kind": "فروش",
+        "old": 250000,
+        "new": 253000,
+        "change_type": "افزایش",
+        "value": 3000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*21*50",
+        "kind": "فروش",
+        "old": 275000,
+        "new": 279000,
+        "change_type": "افزایش",
+        "value": 4000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*10*50",
+        "kind": "فروش",
+        "old": 245000,
+        "new": 253000,
+        "change_type": "افزایش",
+        "value": 8000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*50",
+        "kind": "فروش",
+        "old": 270000,
+        "new": 279000,
+        "change_type": "افزایش",
+        "value": 9000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*15*40",
+        "kind": "فروش",
+        "old": 265000,
+        "new": 279000,
+        "change_type": "افزایش",
+        "value": 14000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.548Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*50",
+        "kind": "فروش",
+        "old": 260000,
+        "new": 279000,
+        "change_type": "افزایش",
+        "value": 19000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*40",
+        "kind": "فروش",
+        "old": 220000,
+        "new": 240000,
+        "change_type": "افزایش",
+        "value": 20000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 2*14*40",
+        "kind": "فروش",
+        "old": 256000,
+        "new": 279000,
+        "change_type": "افزایش",
+        "value": 23000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*15*40",
+        "kind": "فروش",
+        "old": 210000,
+        "new": 240000,
+        "change_type": "افزایش",
+        "value": 30000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.25*14*40",
+        "kind": "فروش",
+        "old": 210000,
+        "new": 240000,
+        "change_type": "افزایش",
+        "value": 30000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*20*30",
+        "kind": "فروش",
+        "old": 210000,
+        "new": 240000,
+        "change_type": "افزایش",
+        "value": 30000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "فولادی 1.5*15*36",
+        "kind": "فروش",
+        "old": 210000,
+        "new": 240000,
+        "change_type": "افزایش",
+        "value": 30000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.547Z",
+        "date": "1405/04/28",
+        "product": "وادار U-14 یک و نیم میل",
+        "kind": "فروش",
+        "old": 1350000,
+        "new": 1401000,
+        "change_type": "افزایش",
+        "value": 51000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.546Z",
+        "date": "1405/04/28",
+        "product": "وادار H-15 یک و نیم میل",
+        "kind": "فروش",
+        "old": 2200000,
+        "new": 2333000,
+        "change_type": "افزایش",
+        "value": 133000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T21:43:12.546Z",
+        "date": "1405/04/28",
+        "product": "وادار U-20 دو میل",
+        "kind": "فروش",
+        "old": 1600000,
+        "new": 2333000,
+        "change_type": "افزایش",
+        "value": 733000,
+        "user": "مدیر",
+        "source": "اعمال حداقل پیشنهادی کنترل وزن/قیمت"
+      },
+      {
+        "timestamp": "2026-07-18T18:56:40.524Z",
+        "date": "1405/04/27",
+        "product": "قلاب گالوانیزه",
+        "kind": "فروش",
+        "old": 8000,
+        "new": 10000,
+        "change_type": "افزایش",
+        "value": 2000,
+        "user": "مدیر",
+        "source": "به‌روزرسانی قیمت فروش هنگام ورود کالا"
+      },
+      {
+        "timestamp": "2026-07-18T18:54:44.006Z",
+        "date": "1405/04/27",
+        "product": "فولادی 1.5*15*40",
+        "kind": "فروش",
+        "old": 240000,
+        "new": 220000,
+        "change_type": "کاهش",
+        "value": 20000,
+        "user": "مدیر",
+        "source": "به‌روزرسانی قیمت فروش هنگام ورود کالا"
+      },
+      {
+        "timestamp": "2026-07-18T18:51:40.865Z",
+        "date": "1405/04/27",
+        "product": "بست انتظار",
+        "kind": "فروش",
+        "old": 24000,
+        "new": 26000,
+        "change_type": "افزایش",
+        "value": 2000,
+        "user": "مدیر",
+        "source": "به‌روزرسانی قیمت فروش هنگام ورود کالا"
+      },
       {
         "timestamp": "2026-07-17T18:25:55.799Z",
         "date": "1405/04/26",
@@ -57304,7 +59477,7 @@
         "sell_total": null,
         "profit_sell": null,
         "marketer": "",
-        "settled": false,
+        "settled": true,
         "_new": true,
         "created_at": "2026-07-14T18:26:22.980Z",
         "marketer_amount": null,
@@ -57411,7 +59584,7 @@
         "sell_total": null,
         "profit_sell": null,
         "marketer": "",
-        "settled": false,
+        "settled": true,
         "_new": true,
         "created_at": "2026-07-16T17:26:06.010Z",
         "marketer_amount": null,
@@ -57948,6 +60121,412 @@
         "invoice_vat_amount": null,
         "invoice_final_total": null,
         "marketer_settled": false
+      },
+      {
+        "type": "خرید",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "بست انتظار",
+        "customer": "بهروز خوابی",
+        "invoice": null,
+        "unit": "عدد",
+        "qty": 4000,
+        "buy_price": 19000,
+        "sell_price": null,
+        "buy_total": 76000000,
+        "sell_total": null,
+        "profit_sell": null,
+        "marketer": "",
+        "settled": false,
+        "_new": true,
+        "created_at": "2026-07-18T18:51:40.865Z",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "marketer_settled": false
+      },
+      {
+        "type": "خرید",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "والپست_1.5_میل_فولادی",
+        "product": "فولادی 1.5*15*40",
+        "customer": "محسن نجفی",
+        "invoice": null,
+        "unit": "عدد",
+        "qty": 50,
+        "buy_price": 208000,
+        "sell_price": null,
+        "buy_total": 10400000,
+        "sell_total": null,
+        "profit_sell": null,
+        "marketer": "",
+        "settled": false,
+        "_new": true,
+        "created_at": "2026-07-18T18:54:44.006Z",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "marketer_settled": false
+      },
+      {
+        "type": "خرید",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "اتصالات",
+        "product": "نبشی 7*10",
+        "customer": "محسن نجفی",
+        "invoice": null,
+        "unit": "عدد",
+        "qty": 400,
+        "buy_price": 40000,
+        "sell_price": null,
+        "buy_total": 16000000,
+        "sell_total": null,
+        "profit_sell": null,
+        "marketer": "",
+        "settled": false,
+        "_new": true,
+        "created_at": "2026-07-18T18:56:05.310Z",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "marketer_settled": false
+      },
+      {
+        "type": "خرید",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "قلاب گالوانیزه",
+        "customer": "بهروز خوابی",
+        "invoice": null,
+        "unit": "عدد",
+        "qty": 2000,
+        "buy_price": 5900,
+        "sell_price": null,
+        "buy_total": 11800000,
+        "sell_total": null,
+        "profit_sell": null,
+        "marketer": "",
+        "settled": false,
+        "_new": true,
+        "created_at": "2026-07-18T18:56:40.524Z",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "marketer_settled": false,
+        "id": "GIN-1784401000525-eq2644",
+        "auto_production_id": "AP-GIN-1784401000525-eq2644",
+        "auto_production": true,
+        "production_recipe_id": "hook-galv",
+        "material_product": "شاخه 65 سانتی قلاب",
+        "material_qty_kg": 0.05,
+        "total_material_qty_kg": 100,
+        "material_buy_price": 98000,
+        "material_cost": 9800000,
+        "color_cost": 0,
+        "labor_cost": 1000,
+        "reason": "ورود تولیدی؛ مصرف خودکار شاخه 65 سانتی قلاب"
+      },
+      {
+        "id": "AP-GIN-1784401000525-eq2644-MAT",
+        "type": "اصلاح موجودی کاهشی",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "مواد_اولیه",
+        "product": "شاخه 65 سانتی قلاب",
+        "customer": "سیستم تولید از ورود کالا",
+        "invoice": "AP-GIN-1784401000525-eq2644",
+        "unit": "کیلوگرم",
+        "qty": 100,
+        "buy_price": 98000,
+        "sell_price": 98000,
+        "buy_total": 9800000,
+        "sell_total": 9800000,
+        "profit_item": 0,
+        "profit_sell": 0,
+        "shipping": null,
+        "marketer": "",
+        "settled": true,
+        "linked_goodsin_id": "GIN-1784401000525-eq2644",
+        "auto_production_id": "AP-GIN-1784401000525-eq2644",
+        "_auto_material_consumption": true,
+        "source": "goodsin_auto_production",
+        "reason": "مصرف خودکار برای ورود 2000 عدد قلاب گالوانیزه",
+        "created_at": "2026-07-18T18:56:40.524Z",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "گیره گالوانیزه",
+        "customer": "میلاد پور بمانی",
+        "invoice": 6783,
+        "unit": "عدد",
+        "qty": 1000,
+        "shortage_qty": 0,
+        "delivered_qty": 1000,
+        "buy_price": 6000,
+        "sell_price": 11000,
+        "buy_total": 6000000,
+        "sell_total": 11000000,
+        "profit_sell": 5000000,
+        "marketer": "شهرام زرین کلاه",
+        "marketer_amount": 11000000,
+        "invoice_loading_fee": 0,
+        "invoice_shipping_fee": 0,
+        "invoice_vat_enabled": false,
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": 0,
+        "invoice_final_total": 11000000,
+        "_new": true,
+        "created_at": "2026-07-18T18:57:42.222Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "قلاب گالوانیزه",
+        "customer": "اسدپور",
+        "invoice": 6707,
+        "unit": "عدد",
+        "qty": 250,
+        "shortage_qty": 0,
+        "delivered_qty": 250,
+        "buy_price": 5900,
+        "sell_price": 7500,
+        "buy_total": 1475000,
+        "sell_total": 1875000,
+        "profit_sell": 400000,
+        "marketer": "میثم خالصی نژاد",
+        "marketer_amount": 24000000,
+        "invoice_loading_fee": 150000,
+        "invoice_shipping_fee": 0,
+        "invoice_vat_enabled": false,
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": 0,
+        "invoice_final_total": 22275000,
+        "_new": true,
+        "created_at": "2026-07-18T19:00:02.664Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "گیره گالوانیزه",
+        "customer": "اسدپور",
+        "invoice": 6707,
+        "unit": "عدد",
+        "qty": 250,
+        "shortage_qty": 0,
+        "delivered_qty": 250,
+        "buy_price": 6000,
+        "sell_price": 9000,
+        "buy_total": 1500000,
+        "sell_total": 2250000,
+        "profit_sell": 750000,
+        "marketer": "میثم خالصی نژاد",
+        "marketer_amount": "",
+        "invoice_loading_fee": "",
+        "invoice_shipping_fee": "",
+        "invoice_vat_enabled": "",
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": "",
+        "invoice_final_total": "",
+        "_new": true,
+        "created_at": "2026-07-18T19:00:02.664Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "قطعات_والپست",
+        "product": "پیچ و رولپلاک",
+        "customer": "اسدپور",
+        "invoice": 6707,
+        "unit": "عدد",
+        "qty": 250,
+        "shortage_qty": 0,
+        "delivered_qty": 250,
+        "buy_price": 4000,
+        "sell_price": 5000,
+        "buy_total": 1000000,
+        "sell_total": 1250000,
+        "profit_sell": 250000,
+        "marketer": "میثم خالصی نژاد",
+        "marketer_amount": "",
+        "invoice_loading_fee": "",
+        "invoice_shipping_fee": "",
+        "invoice_vat_enabled": "",
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": "",
+        "invoice_final_total": "",
+        "_new": true,
+        "created_at": "2026-07-18T19:00:02.664Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "میلگرد_بستر",
+        "product": "خرپایی گالوانیزه 6 سانتی",
+        "customer": "اسدپور",
+        "invoice": 6707,
+        "unit": "شاخه",
+        "qty": 250,
+        "shortage_qty": 0,
+        "delivered_qty": 250,
+        "buy_price": 45000,
+        "sell_price": 67000,
+        "buy_total": 11250000,
+        "sell_total": 16750000,
+        "profit_sell": 5500000,
+        "marketer": "میثم خالصی نژاد",
+        "marketer_amount": "",
+        "invoice_loading_fee": "",
+        "invoice_shipping_fee": "",
+        "invoice_vat_enabled": "",
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": "",
+        "invoice_final_total": "",
+        "_new": true,
+        "created_at": "2026-07-18T19:00:02.664Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "فروش",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "category": "اتصالات",
+        "product": "نبشی 7*10",
+        "customer": "صادقی (موسیوند)",
+        "invoice": 6784,
+        "unit": "عدد",
+        "qty": 400,
+        "shortage_qty": 0,
+        "delivered_qty": 400,
+        "buy_price": 40000,
+        "sell_price": 46000,
+        "buy_total": 16000000,
+        "sell_total": 18400000,
+        "profit_sell": 2400000,
+        "marketer": "شهرام زرین کلاه",
+        "marketer_amount": 18500000,
+        "invoice_loading_fee": 100000,
+        "invoice_shipping_fee": 0,
+        "invoice_vat_enabled": false,
+        "invoice_vat_rate": "",
+        "invoice_vat_amount": 0,
+        "invoice_final_total": 18500000,
+        "_new": true,
+        "created_at": "2026-07-18T19:00:52.965Z",
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "اصلاح موجودی کاهشی",
+        "date": "1405/04/28",
+        "month": "تیر",
+        "category": "مواد_اولیه",
+        "product": "شاخه 3 متری",
+        "customer": "سیستم تولید",
+        "invoice": "PRD-1784410982038",
+        "unit": "کیلوگرم",
+        "qty": 0.48,
+        "buy_price": 84000,
+        "sell_price": 84000,
+        "buy_total": 40320,
+        "sell_total": 40320,
+        "profit_item": 0,
+        "profit_sell": 0,
+        "shipping": null,
+        "marketer": "",
+        "reason": "مصرف تولید 1 شاخه نردبانی گالوانیزه 15 سانتی",
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "settled": false,
+        "marketer_settled": false
+      },
+      {
+        "type": "خرید",
+        "date": "1405/04/28",
+        "month": "تیر",
+        "category": "میلگرد_بستر",
+        "product": "نردبانی گالوانیزه 15 سانتی",
+        "customer": "کارگاه تولید",
+        "invoice": "PRD-1784410982038",
+        "unit": "شاخه",
+        "qty": 1,
+        "buy_price": 51320,
+        "sell_price": 66000,
+        "buy_total": 51320,
+        "sell_total": "",
+        "profit_item": "",
+        "profit_sell": null,
+        "shipping": null,
+        "marketer": "",
+        "reason": "تولید محصول نهایی از شاخه 3 متری",
+        "source": "production_run",
+        "auto_production_skip": true,
+        "marketer_amount": null,
+        "shortage_qty": null,
+        "delivered_qty": null,
+        "invoice_loading_fee": null,
+        "invoice_shipping_fee": null,
+        "invoice_vat_rate": null,
+        "invoice_vat_amount": null,
+        "invoice_final_total": null,
+        "settled": false,
+        "marketer_settled": false
       }
     ],
     "product_weights": [],
@@ -58110,6 +60689,216 @@
       }
     ],
     "audit_log": [
+      {
+        "id": "AUD-1784411139812-bod37",
+        "timestamp": "2026-07-18T21:45:39.812Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/28",
+        "time": "01:15:39",
+        "jalali_timestamp": "1405/04/28 - ساعت 01:15:39 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر گروهی قیمت",
+        "detail": "143 کالا · increase · percent · 5",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784410982155-fj9mi",
+        "timestamp": "2026-07-18T21:43:02.155Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/28",
+        "time": "01:13:02",
+        "jalali_timestamp": "1405/04/28 - ساعت 01:13:02 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت تولید",
+        "detail": "PRD-1784410982038 · نردبانی گالوانیزه 15 سانتی · تعداد 1 · مصرف 0.480 کیلوگرم شاخه 3 متری · قیمت تمام شده 51320",
+        "level": "success"
+      },
+      {
+        "id": "AUD-1784410945929-v0fy3",
+        "timestamp": "2026-07-18T21:42:25.929Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/28",
+        "time": "01:12:25",
+        "jalali_timestamp": "1405/04/28 - ساعت 01:12:25 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر وضعیت تسویه",
+        "detail": "تسویه شد: قلاب گالوانیزه · بهروز خوابی",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784410944093-dlmri",
+        "timestamp": "2026-07-18T21:42:24.093Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/28",
+        "time": "01:12:24",
+        "jalali_timestamp": "1405/04/28 - ساعت 01:12:24 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "تغییر وضعیت تسویه",
+        "detail": "تسویه شد: قلاب گالوانیزه · بهروز خوابی",
+        "level": "warning"
+      },
+      {
+        "id": "AUD-1784401366505-f3gm0",
+        "timestamp": "2026-07-18T19:02:46.505Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:32:46",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:32:46 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "خروجی فاکتورهای بازاریابان",
+        "detail": "1405/04/25 تا 1405/04/27 · 9 فاکتور",
+        "level": "success"
+      },
+      {
+        "id": "AUD-1784401253085-r4wgi",
+        "timestamp": "2026-07-18T19:00:53.085Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:30:53",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:30:53 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت فاکتور",
+        "detail": "فاکتور #6784 · مشتری صادقی (موسیوند) · سطر 1",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784401202771-uhjpx",
+        "timestamp": "2026-07-18T19:00:02.771Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:30:02",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:30:02 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت فاکتور",
+        "detail": "فاکتور #6707 · مشتری اسدپور · سطر 4",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784401062321-qqen8",
+        "timestamp": "2026-07-18T18:57:42.321Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:27:42",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:27:42 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت فاکتور",
+        "detail": "فاکتور #6783 · مشتری میلاد پور بمانی · سطر 1",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784401000526-bdols",
+        "timestamp": "2026-07-18T18:56:40.526Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:26:40",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:26:40 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت ورود کالا",
+        "detail": "قلاب گالوانیزه · تعداد 2000 · مبلغ 11800000 · مصرف مواد اولیه 100.000 کیلوگرم",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784400965310-hsb40",
+        "timestamp": "2026-07-18T18:56:05.310Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:26:05",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:26:05 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت ورود کالا",
+        "detail": "نبشی 7*10 · تعداد 400 · مبلغ 16000000",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784400884006-wo74b",
+        "timestamp": "2026-07-18T18:54:44.006Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:24:44",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:24:44 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت ورود کالا",
+        "detail": "فولادی 1.5*15*40 · تعداد 50 · مبلغ 10400000",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784400700866-yeef3",
+        "timestamp": "2026-07-18T18:51:40.866Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "22:21:40",
+        "jalali_timestamp": "1405/04/27 - ساعت 22:21:40 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ثبت ورود کالا",
+        "detail": "بست انتظار · تعداد 4000 · مبلغ 76000000",
+        "level": "info"
+      },
+      {
+        "id": "AUD-1784372940953-yzhe4",
+        "timestamp": "2026-07-18T11:09:00.953Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "14:39:00",
+        "jalali_timestamp": "1405/04/27 - ساعت 14:39:00 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "خروجی فاکتورهای بازاریابان",
+        "detail": "1405/04/25 تا 1405/04/25 · 6 فاکتور",
+        "level": "success"
+      },
+      {
+        "id": "AUD-1784369987733-c9ihm",
+        "timestamp": "2026-07-18T10:19:47.733Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/27",
+        "time": "13:49:47",
+        "jalali_timestamp": "1405/04/27 - ساعت 13:49:47 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "خروجی فاکتورهای بازاریابان",
+        "detail": "1405/04/25 تا 1405/04/25 · 6 فاکتور",
+        "level": "success"
+      },
+      {
+        "id": "AUD-1784312779322-5b444",
+        "timestamp": "2026-07-17T18:26:19.322Z",
+        "timezone": "Asia/Tehran",
+        "date": "1405/04/26",
+        "time": "21:56:19",
+        "jalali_timestamp": "1405/04/26 - ساعت 21:56:19 (تهران)",
+        "user": "شهرام زرین کلاه",
+        "username": "admin",
+        "role": "مدیر",
+        "action": "ذخیره فایل پشتیبان",
+        "detail": "نوار ابزار",
+        "level": "info"
+      },
       {
         "id": "AUD-1784312755799-l0hca",
         "timestamp": "2026-07-17T18:25:55.799Z",
@@ -58318,216 +61107,6 @@
         "role": "مدیر",
         "action": "بکاپ",
         "detail": "قبل از ثبت مرجوعی",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784276604990-6742x",
-        "timestamp": "2026-07-17T08:23:24.990Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/26",
-        "time": "11:53:24",
-        "jalali_timestamp": "1405/04/26 - ساعت 11:53:24 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "خروجی فاکتورهای بازاریابان",
-        "detail": "1405/04/26 تا 1405/04/26 · 1 فاکتور",
-        "level": "success"
-      },
-      {
-        "id": "AUD-1784276174681-bdwkl",
-        "timestamp": "2026-07-17T08:16:14.681Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/26",
-        "time": "11:46:14",
-        "jalali_timestamp": "1405/04/26 - ساعت 11:46:14 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "خروجی فاکتورهای بازاریابان",
-        "detail": "1405/04/26 تا 1405/04/26 · 1 فاکتور",
-        "level": "success"
-      },
-      {
-        "id": "AUD-1784276152694-gn559",
-        "timestamp": "2026-07-17T08:15:52.694Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/26",
-        "time": "11:45:52",
-        "jalali_timestamp": "1405/04/26 - ساعت 11:45:52 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #8000 · مشتری سجادی · سطر 1",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784223603284-cee3l",
-        "timestamp": "2026-07-16T17:40:03.284Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "21:10:03",
-        "jalali_timestamp": "1405/04/25 - ساعت 21:10:03 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6780 · مشتری سجادی · سطر 3",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784223531354-syzq7",
-        "timestamp": "2026-07-16T17:38:51.354Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "21:08:51",
-        "jalali_timestamp": "1405/04/25 - ساعت 21:08:51 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6781 · مشتری متفرقه محسن · سطر 1",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784223475814-uysmq",
-        "timestamp": "2026-07-16T17:37:55.814Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "21:07:55",
-        "jalali_timestamp": "1405/04/25 - ساعت 21:07:55 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6778 · مشتری فردوسی · سطر 3",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784223216607-1n0x4",
-        "timestamp": "2026-07-16T17:33:36.607Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "21:03:36",
-        "jalali_timestamp": "1405/04/25 - ساعت 21:03:36 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6776 · مشتری یوسفی 1 · سطر 1",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784223177216-udzwt",
-        "timestamp": "2026-07-16T17:32:57.216Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "21:02:57",
-        "jalali_timestamp": "1405/04/25 - ساعت 21:02:57 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6777 · مشتری شوندی · سطر 1",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784222955481-kyj6v",
-        "timestamp": "2026-07-16T17:29:15.481Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "20:59:15",
-        "jalali_timestamp": "1405/04/25 - ساعت 20:59:15 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت ورود کالا",
-        "detail": "وادار U-15 دو میل · تعداد 120 · مبلغ 158400000",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784222878838-9ryw7",
-        "timestamp": "2026-07-16T17:27:58.838Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "20:57:58",
-        "jalali_timestamp": "1405/04/25 - ساعت 20:57:58 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت ورود کالا",
-        "detail": "وادار U-14 دو میل · تعداد 130 · مبلغ 171600000",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784222766010-wrsak",
-        "timestamp": "2026-07-16T17:26:06.010Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/25",
-        "time": "20:56:06",
-        "jalali_timestamp": "1405/04/25 - ساعت 20:56:06 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت ورود کالا",
-        "detail": "قلاب گالوانیزه · تعداد 1000 · مبلغ 5900000 · مصرف مواد اولیه 50.000 کیلوگرم",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784109895575-2uko9",
-        "timestamp": "2026-07-15T10:04:55.575Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/24",
-        "time": "13:34:55",
-        "jalali_timestamp": "1405/04/24 - ساعت 13:34:55 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ثبت فاکتور",
-        "detail": "فاکتور #6770 · مشتری بنیان ارتباط سهند · سطر 1",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784104957892-lkpf0",
-        "timestamp": "2026-07-15T08:42:37.892Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/24",
-        "time": "12:12:37",
-        "jalali_timestamp": "1405/04/24 - ساعت 12:12:37 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "بکاپ",
-        "detail": "بکاپ روزانه",
-        "level": "info"
-      },
-      {
-        "id": "AUD-1784055052600-35k1l",
-        "timestamp": "2026-07-14T18:50:52.600Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "22:20:52",
-        "jalali_timestamp": "1405/04/23 - ساعت 22:20:52 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "خروجی فاکتورهای بازاریابان",
-        "detail": "1405/04/23 تا 1405/04/23 · 8 فاکتور",
-        "level": "success"
-      },
-      {
-        "id": "AUD-1784054796153-8q21h",
-        "timestamp": "2026-07-14T18:46:36.153Z",
-        "timezone": "Asia/Tehran",
-        "date": "1405/04/23",
-        "time": "22:16:36",
-        "jalali_timestamp": "1405/04/23 - ساعت 22:16:36 (تهران)",
-        "user": "شهرام زرین کلاه",
-        "username": "admin",
-        "role": "مدیر",
-        "action": "ذخیره فایل پشتیبان",
-        "detail": "نوار ابزار",
         "level": "info"
       }
     ],
@@ -61122,6 +63701,50 @@
         "user": "شهرام زرین کلاه (مدیر)",
         "created_at": "2026-07-16T17:26:06.010Z",
         "note": "ثبت خودکار تولید از ورود کالا؛ ماده اولیه: شاخه 65 سانتی قلاب"
+      },
+      {
+        "id": "AP-GIN-1784401000525-eq2644",
+        "date": "1405/04/27",
+        "month": "تیر",
+        "recipe_id": "hook-galv",
+        "product": "قلاب گالوانیزه",
+        "output_unit": "عدد",
+        "qty": 2000,
+        "material": "شاخه 65 سانتی قلاب",
+        "material_unit": "کیلوگرم",
+        "material_qty_kg": 0.05,
+        "total_material_qty_kg": 100,
+        "material_buy_price": 98000,
+        "material_cost": 9800000,
+        "color_cost": 0,
+        "labor_cost": 1000,
+        "unit_cost": 5900,
+        "total_cost": 11800000,
+        "user": "شهرام زرین کلاه (مدیر)",
+        "created_at": "2026-07-18T18:56:40.524Z",
+        "note": "ثبت خودکار تولید از ورود کالا؛ ماده اولیه: شاخه 65 سانتی قلاب"
+      },
+      {
+        "id": "PRD-1784410982038",
+        "date": "1405/04/28",
+        "month": "تیر",
+        "recipe_id": "ladder-15",
+        "product": "نردبانی گالوانیزه 15 سانتی",
+        "output_unit": "شاخه",
+        "qty": 1,
+        "material": "شاخه 3 متری",
+        "material_unit": "کیلوگرم",
+        "material_qty_kg": 0.48,
+        "total_material_qty_kg": 0.48,
+        "material_buy_price": 84000,
+        "material_cost": 40320,
+        "color_cost": 5000,
+        "labor_cost": 6000,
+        "unit_cost": 51320,
+        "total_cost": 51320,
+        "user": "شهرام زرین کلاه (مدیر)",
+        "created_at": "2026-07-18T21:43:02.038Z",
+        "note": "ثبت تولید 1 شاخه نردبانی گالوانیزه 15 سانتی"
       }
     ]
   },
