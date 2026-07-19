@@ -1,0 +1,30 @@
+name: Build Windows 64-bit Installer
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-windows-x64:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Windows 64-bit installer
+        run: npm run dist:win64
+
+      - name: Upload Windows x64 installer
+        uses: actions/upload-artifact@v4
+        with:
+          name: AIDA-Inventory-Setup-Windows-x64
+          path: dist/*.exe
